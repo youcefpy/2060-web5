@@ -1,0 +1,30 @@
+<section class="section features py-5">
+    <div class="container">
+      
+        <div class="col-12 col-xl-6">
+            {{ with .content.title }}
+            <h3 class="pb-5 features-title " style="font-size: 40px; color: #7678ED;">{{ . }}</h3>
+            {{ end }}
+        </div>
+
+        <div class="row g-2">
+            {{ range .content.cards }}
+              <div class="col-12 col-xl-4">
+                <a href="{{ .url }}" class="text-decoration-none on-bg-txt">
+                    <div class="card h-100 border-0 border-radius-40 p-4">
+                       <div class="d-flex justify-content-center">
+                           {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }}
+                       </div> 
+                      <div class="card-body text-center">
+                        {{ with .title }}<h4 class="card-title text-center text-primary pb-4">{{ . }}</h4>{{ end }}
+                        {{ with .text }}<p class="card-text text-black-61 pb-4">{{ . }}</p>{{ end }}
+                      </div>
+                    </div>
+                </a>
+              </div>
+            {{ end }}
+        </div>
+          
+    </div>
+  </section>
+  

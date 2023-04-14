@@ -1,0 +1,64 @@
+enabled: true
+id: "usecases"
+
+content:
+  - image: "/images/usecases/img2.png"
+    img:  "/images/usecases/img1.png"
+    title: "P2P Secure Invitation"
+    text: "Peer-to-Peer secure invitations provide a secure and efficient way to invite and onboard new users to platforms, services, or networks, using time-bound unique invitation codes."
+
+    buttons: 
+      - label: "Scan me"
+        url: "#"
+    imgScan : "/images/usecases/img3.png"
+
+  - image: "/images/usecases/img5.png"
+    img:  "/images/usecases/img4.png"
+    title: "ID Card Issuance"
+    text: "Issuing ID cards through a chatbot-based system that utilises the user’s handset biometrics and allows for customisable instructions."
+
+    buttons: 
+      - label: "Scan me"
+        url: "#"
+    imgScan : "/images/usecases/img6.png"
+
+  - image: "/images/usecases/img8.png"
+    img:  "/images/usecases/img7.png"
+    title: "Credit Card Issuance"
+    text: "Authentication of credit cards ordering and submission processes using Verifiable Credentials based interactions via chatbots and secure connections with banking infrastructure."
+
+    buttons: 
+      - label: "Scan me"
+        url: "#"
+    imgScan: "/images/usecases/img9.png"
+
+
+  - image: "/images/usecases/img11.png"
+    img: "/images/usecases/img10.png" 
+    title: "Scan to Pay"
+    text : "Facilitate payment processing between users and merchants by ensuring non-repudiation of transactions without the need of 3D Secure."
+
+    buttons:
+      - label: "Scan me"
+        url : "#"
+    imgScan: "/images/usecases/img12.png"
+
+  - image: "/images/usecases/img8.png"
+    img: "/images/usecases/img7.png" 
+    title: "API Access Token Issuance"
+    text : "Issuing API access tokens through Verifiable Credentials can provide a secure and efficient way to grant access to authorised parties while maintaining control over data and resources."
+
+    buttons:
+      - label: "Scan me"
+        url : "#"
+    imgScan: "/images/usecases/img9.png"
+
+  - image: "/images/usecases/img11.png"
+    img: "/images/usecases/img10.png" 
+    title: "Third Party Accounts"
+    text : "Employing bots to generate and access authorised third-party accounts and services can streamline processes and increase efficiency in various industries, without a compromise on security."
+
+    buttons:
+      - label: "Scan me"
+        url : "#"
+    imgScan: "/images/usecases/img12.png"

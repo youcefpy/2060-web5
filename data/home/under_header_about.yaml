@@ -1,0 +1,9 @@
+enable : true 
+id : "under_header_about"
+
+
+
+content:
+  smallTitle: "About"
+  text : "Born from the necessity to optimise the handling of private information and resources to streamline delivery of services."
+  smText : "Learn more about the rationale behind our 2060 and the team behind it."

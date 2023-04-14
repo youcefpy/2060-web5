@@ -1,0 +1,7 @@
+{{ define "main" }}
+    {{ with .Site.Data.home.under_header_privacy }}{{ partial "shared/underheader_privacy.html" . }}{{ end }}
+    {{ with .Site.Data.home.privacy }}{{ partial "privacy.html" . }}{{ end }}
+    {{ $contact := partial "sections/contact.html" . }}
+    {{ $contact = replace $contact "<p class=\"para-policy\">Feel free our <a href=\"/privacy\" class=\"privacy-contact\">Privacy Policy</a> to check how we handle your data.</p>" "" | safeHTML }}
+    {{ $contact }}
+{{ end }}

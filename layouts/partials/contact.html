@@ -1,0 +1,49 @@
+<section class="section contact_form py-5" >
+    <div class="container">
+      <div class="row portfolio-feature ">
+            <div class="col-4 col-xl-6 d-flex flex-column">
+              <form action=".">
+                <div class="mb-3 mt-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input type="name" class="form-control" id="name" placeholder="Enter your full name" name="name">
+                </div>
+                <div class="mb-3 ">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter your email address" name="email">
+                </div>
+                <div class="mb-3">
+                  <label for="phone" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="xx xxx xxxx xxxxx" name="phone">
+                </div>
+                <div class="mb-3">
+                  <label for="message" class="form-check-label mb-2">Message</label><br>
+                  <textarea name="message" id="message" placeholder="Edit..." cols="35" rows="10"></textarea>
+                </div>
+                <div class="buttons-s-c">
+                  <button  class="btn  clear-button">Clear</button>
+                  <button type="submit" class="btn submit-button">Submit</button>
+                  
+                </div>
+              </form> 
+            </div>
+            <div class="col-12 col-xl-6 d-flex flex-column ">
+                {{ with .title }}
+                  <h4 class="h4 ml-4 mb-4">{{ . }}</h4>
+                {{ end }}
+                <ul class="ul">
+                  {{ range .content }}
+                    {{ with .list }}
+                      <li class="li mb-3"> <img src="/images/contact-img/check.png" class="me-2"> {{ . }}</li>
+                    {{ end }}
+                  {{ end }}
+
+                </ul>
+              
+            </div>
+       </div>
+      </div>
+</section>
+
+
+
+
