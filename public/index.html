@@ -3,7 +3,7 @@
   <head>
 	<meta name="generator" content="Hugo 0.111.3">
   
-  <title>2060 Web5 Accelerator  | My Awesome Website </title>
+  <title>2060 Web5 Accelerator  | 2060 Web5 Accelerator </title>
 
   
   <meta charset="UTF-8" />
@@ -28,11 +28,11 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="images/footer-img/logo-footer.png"/>
 
-<meta name="twitter:title" content="My Awesome Website"/>
-<meta name="twitter:description" content="This is the description of my awesome website"/>
+<meta name="twitter:title" content="2060 Web5 Accelerator"/>
+<meta name="twitter:description" content="The Web5 Accelerator"/>
 
-<meta itemprop="name" content="My Awesome Website">
-<meta itemprop="description" content="This is the description of my awesome website">
+<meta itemprop="name" content="2060 Web5 Accelerator">
+<meta itemprop="description" content="The Web5 Accelerator">
 
 
 
@@ -380,30 +380,10 @@
               <h3 class="fs-1 text-primary pb-3 title-uc-carou" style="color: #3EBDB6 !important; " >Use Cases</h3>
             
         </div>
-        
           <div class="slide-container">
             <div class="swiper mySwiper">
               <div class="swiper-wrapper">
-
-
-                <div class="swiper-slide d-flex justify-content-center" style="max-height: 350px !important;">
-                  <h2 class="title-slide d-flex justify-content-center">Third Party Accounts</h2>
-
-                  <div class="img-slide d-flex justify-content-center">
-                    <img src="/images/usecases/qr_code_uc.png" width="120px" height="100px">        
-                  </div>
-                  <div class="text-content-slide">
-                        <p class="para-slide d-flex justify-content-center">After downloading the 2060 app, scan this QR-Code to test this use case.</p>
-                      <div class="div-btn-scan-me d-flex justify-content-center">
-                          <a class="btn-scan-me" href="">
-                             Scan me 
-                            <span class="ms-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-</svg>
-</span></a>
-                       </div>
-                </div>
-              </div>
+                
               
               
                 <div class="swiper-slide hov">
@@ -580,16 +560,39 @@
    var swiper = new Swiper(".mySwiper", {
       slidesPerView: 3,
       spaceBetween: 10,
+      loop: true,
+      centerSlide: 'true',
+      fade: 'true',
+      grabCursor: 'true',
       pagination: {
         el: ".swiper-pagination",
         clickable: true,
+        dynamicBullets: true,
+        
       },
       
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
       },
+
+      breakpoints:{
+        0: {
+            slidesPerView: 1,
+        },
+        520: {
+            slidesPerView: 2,
+        },
+        950: {
+            slidesPerView: 3,
+        },
+    },
+
     });
+
+    var swiper_pagination_color = document.querySelector(".swiper-pagination");
+    swiper_pagination_color.style.color = "green";
+
   (function(){
     var elements  = document.querySelectorAll('.swiper-slide')
     var traitement = function(element){

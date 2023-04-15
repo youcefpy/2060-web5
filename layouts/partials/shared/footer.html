@@ -1,8 +1,8 @@
-<footer class="shared footer bg-blue-light py-5">
+<footer class="shared footer bg-blue-light ">
   <div class="container">
     <div class="row pb-5">
-      <div class="col-12 col-xl-4 text-center text-xl-start ">
-        {{ partial "utilities/image-fluid" "images/logo/logo-footer.png" }}
+      <div class="col-12 col-xl-4 text-center text-xl-start footer-logo">
+        {{ partial "utilities/image-fluid" "images/footer-img/logo-footer.png" }}
         <p class="small pt-2" style="color: #02faee !important;">{{ .Site.Params.description }}</p>
         {{ with .Site.Params.social }}
         <ul class="d-flex justify-content-center justify-content-xl-start list-unstyled">
@@ -13,8 +13,8 @@
         </ul>
         {{ end }}
       </div>
-      <div class="col-12 col-xl-2 text-center text-xl-start pb-4">
-        <h5 class="fs-6 fw-semibold text-primary text-footer">About us</h5>
+      <div class="col-12 col-xl-2 text-center text-xl-start footer-content pb-4">
+        <h5 class=" fw-semibold text-primary text-footer">About us</h5>
         <ul class="list-unstyled">
           {{ range .Site.Menus.footer }}
             <li class="">
@@ -23,8 +23,8 @@
           {{ end }}
         </ul>
       </div>
-      <div class="col-12 col-xl-3 text-center text-xl-start pb-4">
-        <h5 class="fs-6 fw-semibold text-primary text-footer">Location</h5>
+      <div class="col-12 col-xl-3 text-center text-xl-start footer-content pb-4">
+        <h5 class=" fw-semibold text-primary text-footer">Location</h5>
         <ul class="list-unstyled">
           {{ range .Site.Params.location }}
             <li class="d-flex justify-content-center justify-content-xl-start mb-2">
@@ -34,19 +34,21 @@
           {{ end }}
         </ul>
       </div>
-      <div class="col-12 col-xl-3 text-center text-xl-start pb-4">
-        <h5 class="fs-6 fw-semibold text-primary text-footer">Contact us</h5>
+      <div class="col-12 col-xl-3 text-center text-xl-start footer-content pb-4">
+        <h5 class=" fw-semibold text-primary text-footer">Contact us</h5>
         {{ range .Site.Params.contact }}
           <p class="small text-black-61 mb-1 con-footer">{{ . }}</p>
         {{ end }}
       </div>
     </div>
-    <div class="row">
-      <div class="col-12">
-        {{ with .Site.Params.copyright }}
-          <p class="small text-black-61 text-center para-cr">{{ . }}</p>
-        {{ end }}
-      </div>
-    </div>
+    
   </div>
 </footer>
+
+<div class="row copyright">
+  <div class="col-12">
+    {{ with .Site.Params.copyright }}
+      <p class="small text-black-61 text-center para-cr">{{ . }}</p>
+    {{ end }}
+  </div>
+</div>

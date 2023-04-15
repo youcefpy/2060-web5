@@ -1,5 +1,11 @@
+footer{
+    padding-top: 3rem !important;
+
+
+}
+
 .shared.footer{
-    background: url("/images/footer-img/bg_footer.png") no-repeat center center;
+    background: url("/images/footer-img/bg_footer.jpg") no-repeat top center;
     background-size: cover !important;
     width: 100% !important;
     max-width: none !important;
@@ -21,6 +27,7 @@
     color: #FFFFFF !important;
 }
 .text-loc{
+    padding-left: 1rem !important;
     color: #FFFFFF !important;
 }
 
@@ -30,3 +37,60 @@
 .text-about{
     color: #FFFFFF !important;
 }
+
+.copyright{
+    height: 70px;
+    background-color: #084357;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+.copyright p{
+    line-height: 70px;
+    margin: 0;
+}
+.footer-logo :first-child{
+    width: 43%;
+}
+.footer-logo p{
+    font-size: 1.2rem;
+}
+.footer-logo svg{
+    width:100% !important;
+}
+.footer-logo li{
+    width:auto !important;
+}
+
+.text-about {
+    color: #FFFFFF !important;
+    line-height: 40px;
+    font-size: 1rem;
+  }
+
+.justify-content-xl-start {
+    justify-content: flex-start !important;
+    color: #FFFFFF !important;
+    margin: 15px 0;
+    font-size: 1rem;
+}
+
+.con-footer {
+    color: #FFFFFF !important;
+    line-height: 40px;
+    font-size: 1rem;
+  }
+   
+.text-footer {
+    color: #3EBDB6 !important;
+    font-size: 1.2rem;
+    font-family: 'EuclidCircularA-Bold';
+}
+.footer-content{
+    padding-top: 40px;
+}
+.footer-content ul li{
+    width: 65%;
+}
+

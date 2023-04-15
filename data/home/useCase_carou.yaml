@@ -3,6 +3,10 @@ id: "useCase"
 
 title: "Use Cases"
 
+# title_qr : "Third Party Accounts"
+# img_qr : "/images/usecases/qr_code_uc.png"
+# para_qr : "After downloading the 2060 app, scan this QR-Code to test this use case"
+# btn_scan_qr: "#"
 content:
   usecases:
     - image: "images/usecases/img2.svg"

@@ -8,8 +8,11 @@
     background-color: #e4f3f2;
     max-width: none;
     padding: 40px;
+    
     @media (min-width: 1440px) {
-      
+         .desc-usecase{
+          margin-left: 55px;
+         }
     }
   }
   
@@ -19,5 +22,9 @@
     margin:0 auto;
     display:flex;
     justify-content: space-between;
+   
   }
+  // .col-12.col-xl-6.d-flex.flex-column.justify-content-center {
+  //   margin-right: 68px;
+  // }
 }

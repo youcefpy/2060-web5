@@ -1,19 +1,28 @@
-.container.download_container{
+
+.download{
     background: url("images/download_images/bg_dl_img.png") no-repeat center center ;
     background-size: cover;
 }
-
+.download .imgdown img{
+    width: 70%;
+    padding: 3rem;
+}
 .const-btn{
     color: #0893FF !important;
     border-color: #0893FF !important ;
 }
 
-.title-dwn{
+.download .title-dwn{
     color: #0893FF;
-    font-size: 50px;
+    font-size: 48px;
+    
 }
-.txt-dwn{
-    font-size: 25px;
+.download .txt-dwn {
+    font-size: 36px !important;
     color: #073B4C;
-}
-
+    width: 89%;
+    line-height: 64px;
+  }
+.download .dwn-btns{
+    margin-right: 1.2rem !important;
+  }

@@ -4,32 +4,32 @@ id: "features"
 content:
   title: "Features"
   cards:
-    - image: "images/feature-img/img-1-feat.jpg"
+    - image: "/images/features/img1.png"
       title: "User-centric data governance"
       text: "Allow customers to access, manage, and control their personal information across various applications and systems. "
       url : "#"
       
-    - image: "images/feature-img/img-2-feat.jpg"
+    - image: "/images/features/img2.png"
       title: "Verification and presentation of authentic data"
       text: "Ensure reliability, accuracy, completeness, and consistency of authentification data."
       url: "#"
 
-    - image: "images/feature-img/img-3-feat.jpg"
+    - image: "/images/features/img3.png"
       title: "Creation of publicly accessible services"
       text: "Promote equal, inclusive, and transparent access to enable and facilitate access to publicly available resources."
       url: "#"
 
-    - image: "images/feature-img/img-4-feat.jpg"
+    - image: "/images/features/img4.png"
       title: "Password-less access and login to resources (web, app, api … )"
       text: "Offer a secure alternative to traditional password-based authentication methods."
       url: "#"
 
-    - image: "images/feature-img/img-5-feat.jpg"
+    - image: "/images/features/img5.png"
       title: "User-based control of inbound communication requests"
       text: "Improve users privacy and security by granting them the ability to manage inbound communication requests. "
       url: "#"
 
-    - image: "images/feature-img/img-6.jpg"
+    - image: "/images/features/img6.png"
       title: "Secure wallet for credential storage"
       text: "Mitigate and reduce risks of identity thefts through a secure storage of user’s sensitive information."
       
