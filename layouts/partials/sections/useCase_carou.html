@@ -56,9 +56,9 @@
                       {{ end }}
                       <div class="div-btn-scan-me">
                         {{ with .url }}
-                          <a class="btn-scan-me" href="{{ . }}">
+                          
                              Scan me 
-                            <span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></a>
+                            <span class="ms-2">{{ partial "icons/arrow-right.html" }}</span>
                         {{ end }}
                       </div>
                   </div>
@@ -131,6 +131,17 @@
     
     for(var i=0; i<elements.length; i++){
            traitement(elements[i]);
+    }
+
+    var bouttons  = document.querySelectorAll('.div-btn-scan-me')
+    var flip = function(element){
+        element.addEventListener('click', function(){
+            this.parentNode.parentNode.style.rotate= 'y 0.25turn'
+        })
+    }
+  
+    for(var i=0; i<bouttons.length; i++){
+           flip(bouttons[i]);
     }
 })()
 </script>

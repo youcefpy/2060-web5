@@ -37,6 +37,7 @@
 
     min-height: 370px;
     border-radius: 7px;
+    
   }
 
 
@@ -89,6 +90,9 @@
     z-index: 1;
     display: block;
     min-height: 450px;
+    perspective: 800px;
+    perspective-origin: 0;
+    
   }
 
 

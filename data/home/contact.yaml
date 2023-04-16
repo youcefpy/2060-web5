@@ -4,9 +4,13 @@ id : "contact"
 
 title: "Get in touch with our team to:"
 content:
-    - list: "Integrate: For your own, or your clients’, services."
-    - list : "Operate: Become a 2060 node operator and start earning."
-    - list : "Collaborate: Join forces with us to promote Web5."
-    - list : "Inquire: For any other questions and information"
-
+  listRule:
+    - list: "Integrate: "
+      desc: "For your own, or your clients’, services."
+    - list: "Operate: "
+      desc: "Become a 2060 node operator and start earning."
+    - list: "Collaborate: "
+      desc: "Join forces with us to promote Web5."
+    - list: "Inquire: "
+      desc: "For any other questions and information"
 
