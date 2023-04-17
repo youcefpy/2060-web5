@@ -1,5 +1,10 @@
 <section class="section portfolio">
     <div class="container-fluid">
+      <!-- {{ with .para_uc_top }}
+        <p>{{ . }}</p>
+
+      {{ end }} -->
+
       {{ range .content }}
       <div class="row portfolio-feature">
         <div class="portfolio-feature-container">
@@ -20,6 +25,13 @@
               {{ with .text }}
                 <p class="text-black-61 pb-3">{{ . }}</p>
               {{ end }}
+              
+              <ol>
+                  {{ range $index, $elem := .list_desc }}
+                      <li add $index 1> {{ $elem.elem }} </li>
+                  {{ end }}
+                </ol>
+
             </div>
             <div class="">
               {{ range .buttons }}

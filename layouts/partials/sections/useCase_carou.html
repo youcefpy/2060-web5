@@ -6,70 +6,81 @@
             {{ end }}
         </div>
 
+
           <div class="slide-container">
-            <div class="swiper mySwiper">
-              <div class="swiper-wrapper">
 
-              <!-- <div class="swiper-slide hov-qr">
-                  <div >
-                    {{ with .title_qr }}
-                      <h2 class="title-qr-qr" style="color: #3EBDB6; text-align: center; font-size: 25px;"> {{ . }} </h2>
-                    {{ end }}
-                    <div class="img-qr-slide d-flex justify-content-center justify-align-center my-4" >
-                      {{ with .img_qr }}
-                      <img src="{{ . }}" width="180px" height="150px" />
-                      {{ end }}
-                    </div>
+            <!-- Main Container For the Slide -->
+            <div class="swiper mySwiper flip-card-3D-wrapper">
 
-                    {{ with .para_qr }}
-                    
-                      <p style="text-align: center; font-size: 13px; padding-right: 15px;"> {{ . }}</p>
-                    
-                    {{ end }}
-                    <div class="btn-scan-container d-flex justify-content-center">
-                      {{ with .btn_scan_qr }}
-                        <a href="{{ . }}" class="btn-scan" style="text-decoration: none; color:#073B4C; width: 140px; height: 45px; border-radius: 25px; background-color: aliceblue; padding: 10px; font-size: 13px;">Learn more
-                          <span class="ms-2">
-                            {{ partial "icons/arrow-right.html" }}
-                          </span>
-                        </a>
-                      {{ end }}
-                    </div>
+              <!-- Global Container containe front and back  -->
+              <div class="swiper-wrapper flip-card">
 
-                  </div>
-              </div> -->
-              
-              {{ range .content.usecases }}
-                <div class="swiper-slide hov">
-                  <div class="img-slide">
-                    {{ with .image }}
-                    <img src="{{ . }}" width="60px" height="60px">   
-                    {{ end }}
-                  </div>
-                  <div class="text-content-slide">
-                      {{ with .title }}
-                      <h2 class="title-slide">{{ . }}</h2>
-                      {{ end }}
+                {{ range .content.usecases }}
+                  <!--Back Slide -->
 
-                      {{ with .para }}
-                        <p class="para-slide">{{ . }}</p>
-                      {{ end }}
-                      <div class="div-btn-scan-me">
-                        {{ with .url }}
-                          
-                             Scan me 
-                            <span class="ms-2">{{ partial "icons/arrow-right.html" }}</span>
+                  <!-- End Back -->
+                  <!-- From Card -->
+                  <div class="swiper-slide flip-card-front">
+                    <div class="swiper-slide-recto">
+                      <div class="d-flex imgSlide-1">
+                        {{ with .image }}
+                        <img src="{{ . }}">   
                         {{ end }}
                       </div>
+                      <div class="text-content-slide">
+                          {{ with .title }}
+                          <h2 class="title-slide">{{ . }}</h2>
+                          {{ end }}
+    
+                          {{ with .para }}
+                            <p class="para-slide">{{ . }}</p>
+                          {{ end }}
+                          <div class="div-btn-scan-me">                       
+                            <button id="button-flip-back">Scan Me <span class="ms-2">{{ partial "icons/arrow-right.html" }} <img src="/images/usecases/carou_img/qr_scan.png" alt=""></span></button>                          
+                          </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide-verso">
+                        {{ with .title }}
+                          <h2 class="title-slide text-center">{{ . }}</h2>
+                        {{ end }}
+    
+                      <div class="d-flex justify-content-center imgSlide-1-qr">
+                        {{ with .imageQR }}
+                        <img src="{{ . }}">   
+                        {{ end }}
+                      </div>
+                      <div class="text-content-slide-qr">
+                          {{ with .paraqr }}
+                            <p class="para-slide">{{ . }}</p>
+                          {{ end }}
+                          <div class="buttons-carousel">
+                            <div class="div-btn-scan-me2">                       
+                              <button id="button-flip-back"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="9.001" viewBox="0 0 14 9.001">
+                                <path id="left" d="M1,8a.5.5,0,0,1,.5-.5H13.293L10.146,4.354a.5.5,0,1,1,.708-.708l4,4a.5.5,0,0,1,0,.708l-4,4a.5.5,0,1,1-.708-.708L13.293,8.5H1.5A.5.5,0,0,1,1,8Z" transform="translate(15 12.5) rotate(180)" fill-rule="evenodd"/>
+                              </svg>
+                               Back</button>                          
+                            </div>
+                            <div class="btn-scan-me3">
+                              <button id="button-flip-back">Learn more<span class="ms-2">{{ partial "icons/arrow-right.html" }}</span></button>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                {{ end }}
+                  <!-- End Front Card Div -->
+                  {{ end }}
               </div>
+
+              <!-- End Swiper Wrapper -->
              
-              <div class="swiper-pagination"></div>
+              
             </div>
+            <!-- End Main Container For the Slide -->
+
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
         </div>
         
 </section>
@@ -109,23 +120,26 @@
 
     });
 
-    var swiper_pagination_color = document.querySelector(".swiper-pagination");
-    swiper_pagination_color.style.color = "green";
-
+   
   (function(){
     var elements  = document.querySelectorAll('.swiper-slide')
     var traitement = function(element){
         element.addEventListener('mouseenter', function(){
-          
+          this.style.transition= "0.5s all";
            this.style.background = "#073B4C"
-            this.children[1].children[1].style.color = "#DBDBF4"
-            this.children[1].children[0].style.color = "#3EBDB6"
+            this.children[0].children[0].style.background = "none"
+            this.children[0].children[0].children[0].style.marginTop = "-86px"
+            this.children[0].children[1].children[1].style.color = "#DBDBF4"
+            this.children[0].children[1].children[0].style.color = "#3EBDB6"
+            this.children[0].children[1].children[2].children[0].style.backgroundColor = "#FFF"
         })
         element.addEventListener('mouseleave', function(){
           
-          this.style.background = "#FFF"
-           this.children[1].children[1].style.color = "#073B4C"
-           this.children[1].children[0].style.color = "#3EBDB6"
+            this.style.background = "#FFF"
+            this.children[0].children[0].style.background = "url('/images/usecases/carou_img/usecase_bg.png') no-repeat"
+            this.children[0].children[0].children[0].style.marginTop = "0"
+            this.children[0].children[1].children[1].style.color = "#073B4C"
+            this.children[0].children[1].children[0].style.color = "#3EBDB6"
        })
     }
     
@@ -135,13 +149,67 @@
 
     var bouttons  = document.querySelectorAll('.div-btn-scan-me')
     var flip = function(element){
-        element.addEventListener('click', function(){
-            this.parentNode.parentNode.style.rotate= 'y 0.25turn'
+        element.addEventListener('click', function(){          
+            this.parentNode.parentNode.style.marginTop = "-410px"
         })
+
     }
+
   
     for(var i=0; i<bouttons.length; i++){
            flip(bouttons[i]);
     }
+    var bouttons2  = document.querySelectorAll('.div-btn-scan-me2')
+    var flip = function(element){
+        element.addEventListener('click', function(){
+            this.parentNode.parentNode.parentNode.parentNode.children[0].style.marginTop = "0px"
+        })
+
+    }
+
+  
+    for(var i=0; i<bouttons2.length; i++){
+           flip(bouttons2[i]);
+    }
 })()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+document.addEventListener('DOMContentLoaded', function(event) {
+
+document.getElementById('flip-card-btn-turn-to-back').style.visibility = 'visible';
+
+document.getElementById('flip-card-btn-turn-to-back').onclick = function() {
+document.getElementById('flip-card').classList.toggle('do-flip');
+};
+
+document.getElementById('flip-card-btn-turn-to-front').onclick = function() {
+document.getElementById('flip-card').classList.toggle('do-flip');
+};
+
+});*/
+
+
+
 </script>
+

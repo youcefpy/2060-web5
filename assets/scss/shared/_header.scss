@@ -2,12 +2,28 @@
   .navbar-brand {
     img {
       width: auto;
-      max-height: calc(2.3rem + .6vw);
+      max-height: calc(2rem + .6vw);
     }
   }
 }
 .navbar{
   box-shadow: 2px 2px 10px rgba(84,207,248,0.16);
+}
+
+
+.navbar-collapse .nav-menu li{
+  padding: 0 2rem;
+}
+
+.navbar-collapse .nav-menu li a{
+  text-decoration: none;
+  padding: 1rem 0 0.3rem 0 !important;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+}
+.navbar-collapse .nav-menu li a:hover{
+  text-decoration: none;
+  border-bottom: 2px solid #7678ED;
 }
 
 .github-header{

@@ -22,12 +22,12 @@ params:
     faviconColor: "#000000"
 
   social:
-    github: "#"
+    github: "https://github.com/2060-io"
     linkedin: "#"
     twitter: "#"
 
   location:
-    - "Cra. 13a #8798 #87- a Bogotá, Colombia"
+    - "Cra 13A #86A-42, Bogotá DC, Colombia"
     - "Paseo de Recoletos 27-41 Madrid, 28004, Spain"
 
   contact:

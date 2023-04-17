@@ -10,7 +10,7 @@
         <div class="row g-3 ">
             {{ range .content.cards }}
               <div class="col-12 col-xl-4">
-                <a href="{{ .url }}" class="text-decoration-none on-bg-txt ">
+                
                     <div class="card h-100 border-0 border-radius-40 p-4 feature-card">
                        <div class="d-flex justify-content-center img-feature2">
                            <!-- {{ with .image }}{{ partial "utilities/image-fluid.html" . }}{{ end }} -->
@@ -23,7 +23,7 @@
                         {{ with .text }}<p class="card-text text-black-61 pb-4">{{ . }}</p>{{ end }}
                       </div>
                     </div>
-                </a>
+               
               </div>
             {{ end }}
         </div>

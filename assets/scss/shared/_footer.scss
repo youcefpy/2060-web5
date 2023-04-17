@@ -26,10 +26,6 @@ footer{
 .con-footer{
     color: #FFFFFF !important;
 }
-.text-loc{
-    padding-left: 1rem !important;
-    color: #FFFFFF !important;
-}
 
 .geo-color{
     color: #FFFFFF !important;
@@ -51,10 +47,10 @@ footer{
     margin: 0;
 }
 .footer-logo :first-child{
-    width: 43%;
+    width: 35%;
 }
 .footer-logo p{
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .footer-logo svg{
     width:100% !important;
@@ -65,8 +61,8 @@ footer{
 
 .text-about {
     color: #FFFFFF !important;
-    line-height: 40px;
-    font-size: 1rem;
+    line-height: 35px;
+    font-size: .9rem;
   }
 
 .justify-content-xl-start {
@@ -79,18 +75,23 @@ footer{
 .con-footer {
     color: #FFFFFF !important;
     line-height: 40px;
-    font-size: 1rem;
+    font-size: .9rem;
   }
    
 .text-footer {
     color: #3EBDB6 !important;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'EuclidCircularA-Bold';
+}
+.text-loc{
+    padding-left: 1rem !important;
+    color: #FFFFFF !important;
+    font-size: .9rem;
 }
 .footer-content{
     padding-top: 40px;
 }
 .footer-content ul li{
-    width: 65%;
+    width: 70%;
 }
 

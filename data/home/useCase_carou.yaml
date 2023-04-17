@@ -9,33 +9,51 @@ title: "Use Cases"
 # btn_scan_qr: "#"
 content:
   usecases:
-    - image: "images/usecases/img2.svg"
+    - image: "images/usecases/carou_img/img1.png"
       title: "User-centric data governance"
       para: "Allow customers to access, manage, and control their personal information across various applications and systems. "
-      url : "#"
+      # scan me : 
+      imageQR : "/images/usecases/qr_code_uc.png"
+      paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
       
-    - image: "/images/feature-carou/img-2-feat.jpg"
+    - image: "images/usecases/carou_img/img2.png"
       title: "Verification and presentation of authentic data"
       para: "Ensure reliability, accuracy, completeness, and consistency of authentification data."
-      url: "#"
+      ## scan me :
+      imageQR : "/images/usecases/qr_code_uc.png"
+     
+      paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
 
-    - image: "/images/feature-carou/img-3-feat.jpg"
+
+    - image: "images/usecases/carou_img/img3.png"
       title: "Creation of publicly accessible services"
       para: "Promote equal, inclusive, and transparent access to enable and facilitate access to publicly available resources."
-      url: "#"
+      ## scan me :
+      imageQR : "/images/usecases/qr_code_uc.png"
+   
+      paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
 
-    - image: "images/feature-carou/img-4-feat.jpg"
+    - image: "images/usecases/carou_img/img4.png"
       title: "Password-less access and login to resources (web, app, api … )"
       para: "Offer a secure alternative to traditional password-based authentication methods."
-      url: "#"
+      ## scan me :
+      imageQR : "/images/usecases/qr_code_uc.png"
 
-    - image: "images/feature-carou/img-5-feat.jpg"
+      paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
+
+    - image: "images/usecases/carou_img/img4.png"
       title: "User-based control of inbound communication requests"
       para: "Improve users privacy and security by granting them the ability to manage inbound communication requests. "
-      url: "#"
+      ## scan me :
+      imageQR : "/images/usecases/qr_code_uc.png"
 
-    - image: "images/feature-carou/img-6.jpg"
+      paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
+
+    - image: "images/usecases/carou_img/img4.png"
       title: "Secure wallet for credential storage"
       para: "Mitigate and reduce risks of identity thefts through a secure storage of user’s sensitive information."
-      url : "#"
+      ## scan me :
+      imageQR : "/images/usecases/qr_code_uc.png"
+
+      paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
       

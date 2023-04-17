@@ -5,14 +5,14 @@ content:
   title: "The team"
   cards:
     - image: "/images/about/img2.png"
-      title: "Fabrice Rochette"
+      title: "Ariel Gentile"
       text: "Co-Founder and CEO"
       description : "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,.."
       qrscan: "/images/about/scan1.png"
       github: "#"
       linkedin : "#"
     - image: "/images/about/img3.png"
-      title: "Ariel Gentile"
+      title: "Fabrice Rochette"
       text: "Co-Founder and CEO"
       description : "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,.."
       qrscan: /images/about/scan2.png

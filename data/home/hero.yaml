@@ -2,12 +2,12 @@ enabled: true
 id: "hero"
 
 content:
-  title: "The Web5 Accelerator"
-  text: "Open-source tools that enable building rich decentralised chat-powered services, combining text, pictures, videos and voice based on Verifiable Credentials."
+  title: "The web5 Accelerator"
+  text: "Open-source tools that enable building rich decentralised chat-powered services, combiningtext, pictures, videos and voice based on Verifiable Credentials."
 
   buttonPrimary:
     icon : "/images/icons/dwn.png"
-    label: "Donwload"
+    label: "Download"
     url: "#"
 
   buttonSecondary:   

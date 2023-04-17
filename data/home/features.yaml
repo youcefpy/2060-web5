@@ -10,7 +10,7 @@ content:
       url : "#"
       
     - image: "/images/features/img2.png"
-      title: "Verification and presentation of authentic data"
+      title: "Verification and presentation of authentic data Change “authentification” with “authentic”"
       text: "Ensure reliability, accuracy, completeness, and consistency of authentification data."
       url: "#"
 
@@ -20,7 +20,7 @@ content:
       url: "#"
 
     - image: "/images/features/img4.png"
-      title: "Password-less access and login to resources (web, app, api … )"
+      title: "Passwordless access and to resources (web, app, api)"
       text: "Offer a secure alternative to traditional password-based authentication methods."
       url: "#"
 
