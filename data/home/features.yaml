@@ -10,8 +10,8 @@ content:
       url : "#"
       
     - image: "/images/features/img2.png"
-      title: "Verification and presentation of authentic data Change “authentification” with “authentic”"
-      text: "Ensure reliability, accuracy, completeness, and consistency of authentification data."
+      title: "Verification and presentation of authentic data"
+      text: "Ensure reliability, accuracy, completeness, and consistency of authentic data."
       url: "#"
 
     - image: "/images/features/img3.png"

@@ -8,12 +8,12 @@
       {{ range .content }}
       <div class="row portfolio-feature">
         <div class="portfolio-feature-container">
-          <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+          <div class="col-6 col-xl-6 d-flex img-container-uc">
             {{ with .image }}
               <img src="{{ . }}" alt="img-sign" class="img-fuild mb-5">
             {{ end }}
           </div>
-          <div class="col-12 col-xl-6 d-flex flex-column justify-content-center desc-usecase">
+          <div class="col-6 col-xl-6 d-flex flex-column desc-usecase">
 
             {{ with .img }}
               <img src="{{ . }}" alt="img-sign" class="img-fuild-left">
@@ -35,7 +35,7 @@
             </div>
             <div class="">
               {{ range .buttons }}
-                <a class="text-decoration-none me-3 scan-link" href="{{ .url }}">{{ .label }} <i class="fas fa-arrow-right right-arrow"></i></a>
+                <p class="text-decoration-none me-3 scan-link" href="{{ .url }}">{{ .label }} <i class="fas fa-arrow-right right-arrow"></i></p>
               {{ end }}
               
               {{ with .imgScan }}

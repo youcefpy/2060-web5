@@ -1,5 +1,12 @@
 
+
 .error-container{
-    background: url("/images/background-error.jpg") no-repeat center center ;
-    background-size: cover ;
+    background : url("/images/404_error/bg_error.png") no-repeat center center;
+}
+.container-img-para-error img{
+    height: 560px;
+    margin-top: 3rem;
+}
+.container-img-para-error .para-error{
+    margin-bottom: 3rem;
 }

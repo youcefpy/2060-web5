@@ -3,43 +3,30 @@ id: "usecases"
 
 # para_uc_top : "To run the examples, please make sure you downloaded the 2060 client."
 content:
-  - image: "/images/usecases/img2.png"
-    img:  "/images/usecases/img1.png"
+  - image: "/images/usecases/p2p-secure-invitation.png"
+    img:  "/images/usecases/img-p2p.png"
     title: "P2P secure invitation"
-    text: "In this example, User will simply generate a unique invitation code (valid only once) and share it with a friend."
+    text: "Peer-to-Peer secure invitations provide a secure and efficient way to invite and onboard new users to platforms, services, or networks, using time-bound unique invitation codes."
 
     buttons: 
       - label: "Scan me"
         url: "#"
     imgScan : "/images/usecases/img3.png"
 
-  - image: "/images/usecases/img5.png"
-    img:  "/images/usecases/img4.png"
+  - image: "/images/usecases/id-issuance.png"
+    img:  "/images/usecases/img-idcard-issuance.png"
     title: "Id card issuance"
-    text: "In this example, User will connect to a public fake registry service and get delivered an ID Verifiable Credential."
-    list_desc : 
-      - elem : "User scans the registry’s QR code."
-      - elem : "2060 App launches and a connection is created with the registry."
-      - elem : "Check User is handset’s owner by using handset biometric"
-      - elem : "User follows instructions on chat: input name, birthdate..."
-      - elem : "User gets delivered an ID Verifiable Credential"
+    text: "Issuing ID cards through a chatbot-based system that utilises the user’s handset biometrics and allows for customisable instructions."
+
     buttons: 
       - label: "Scan me"
         url: "#"
     imgScan : "/images/usecases/img6.png"
 
-  - image: "/images/usecases/img8.png"
-    img:  "/images/usecases/img7.png"
+  - image: "/images/usecases/credit-card-issuance.png"
+    img:  "/images/usecases/img-cci.png"
     title: "Credit card issuance"
-    text: "In this example, User will scan a QR code and access a bank customer support public service."
-    list_desc : 
-      - elem : "User scans the QR code."
-      - elem : "2060 App launches and a connexion is created with the bank customer support bot."
-      - elem : "User follows instructions on chat."
-      - elem : "Verification User is handset’s owner by using biometric."
-      - elem : "User presents its ID card (optional, User might already have used the service) and gets presented with a menu."
-      - elem : "User chooses “get pre approved credit card”."
-      - elem : "Bot delivers a Verifiable Credential representing the credit card to User"
+    text: "Authentication of credit cards ordering and submission processes using Verifiable Credentials based interactions via chatbots and secure connections with banking infrastructure."
 
     buttons: 
       - label: "Scan me"
@@ -47,25 +34,18 @@ content:
     imgScan: "/images/usecases/img9.png"
 
 
-  - image: "/images/usecases/img11.png"
-    img: "/images/usecases/img10.png" 
+  - image: "/images/usecases/scan-to-pay.png"
+    img: "/images/usecases/img-stp.png" 
     title: "Scan to pay"
-    text : "In this example, User will scan a QR code of a public payment service in order to pay with a credit card."
-    list_decs : 
-      - elem : "User scans the QR code."
-      - elem : "2060 App launches and a connexion is created with the ecommerce bot"
-      - elem : "User follows instructions on chat."
-      - elem : "Verification User is handset’s owner by using biometric."
-      - elem : "User creates and sends a Verifiable Presentation of his Credit Card with the amount to be debited and commerceId."
-      - elem : "Commerce receives presentation and must forward it to a payment processor to charge user."
-      - elem : "Payment processor confirm to ecommerce if transaction is ok."
+    text : "Facilitate payment processing between users and merchants by ensuring non-repudiation of transactions without the need of 3D Secure."
+    
     buttons:
       - label: "Scan me"
         url : "#"
     imgScan: "/images/usecases/img12.png"
 
-  - image: "/images/usecases/img8.png"
-    img: "/images/usecases/img7.png" 
+  - image: "/images/usecases/api-token-mgnt.png"
+    img: "/images/usecases/img-aat.png" 
     title: "API Access Token Issuance"
     text : "Issuing API access tokens through Verifiable Credentials can provide a secure and efficient way to grant access to authorised parties while maintaining control over data and resources."
 
@@ -74,18 +54,11 @@ content:
         url : "#"
     imgScan: "/images/usecases/img9.png"
 
-  - image: "/images/usecases/img11.png"
-    img: "/images/usecases/img10.png" 
+  - image: "/images/usecases/3p-access-mgnt.png"
+    img: "/images/usecases/img-tpa.png" 
     title: "Third party account creation and login"
-    text : "In this example, User will scan a QR code or click a “connect with VCs” button on Mobile App to access (create an account or log in to) a dating service."
-    list_desc : 
-      - elem : "User scans the QR code or clicks the “connect with VCs” button."
-      - elem : "2060 App launches and a connexion is created with the service authentication bot."
-      - elem : "User scans the QR code or clicks the “connect with VCs” button."
-      - elem : "Verification User is handset’s owner by using biometric."
-      - elem : "Bot will ask User if he/she already has an access credential or if he/she wants to create a new one."
-      - elem : "User presents a credential OR requests a new one."
-      - elem : "User is redirected to the mobile app and/or access to service is granted."
+    text : "Employing bots to generate and access authorised third-party accounts and services can streamline processes and increase efficiency in various industries, without a compromise on security."
+    
     buttons:
       - label: "Scan me"
         url : "#"

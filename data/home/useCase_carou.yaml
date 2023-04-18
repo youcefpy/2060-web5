@@ -10,15 +10,15 @@ title: "Use Cases"
 content:
   usecases:
     - image: "images/usecases/carou_img/img1.png"
-      title: "User-centric data governance"
-      para: "Allow customers to access, manage, and control their personal information across various applications and systems. "
+      title: "Third-Party Accounts"
+      para: "Employing bots to generate and access authorised third-party accounts and services can streamline processes and increase efficiency in various industries, without a compromise on security."
       # scan me : 
       imageQR : "/images/usecases/qr_code_uc.png"
       paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
       
     - image: "images/usecases/carou_img/img2.png"
-      title: "Verification and presentation of authentic data"
-      para: "Ensure reliability, accuracy, completeness, and consistency of authentification data."
+      title: "P2P Secure Invitation"
+      para: "Peer-to-Peer secure invitations provide a secure and efficient way to invite and onboard new users to platforms, services, or networks, using time-bound unique invitation codes."
       ## scan me :
       imageQR : "/images/usecases/qr_code_uc.png"
      
@@ -26,22 +26,22 @@ content:
 
 
     - image: "images/usecases/carou_img/img3.png"
-      title: "Creation of publicly accessible services"
-      para: "Promote equal, inclusive, and transparent access to enable and facilitate access to publicly available resources."
+      title: "ID Card Issuance"
+      para: "Issuing ID cards through a chatbot-based system that utilises the user’s handset biometrics and allows for customisable instructions."
       ## scan me :
       imageQR : "/images/usecases/qr_code_uc.png"
    
       paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
 
     - image: "images/usecases/carou_img/img4.png"
-      title: "Password-less access and login to resources (web, app, api … )"
-      para: "Offer a secure alternative to traditional password-based authentication methods."
+      title: "Credit Card Issuance"
+      para: "Authentication of credit cards ordering and submission processes using Verifiable Credentials based interactions via chatbots and secure connections with banking infrastructure."
       ## scan me :
       imageQR : "/images/usecases/qr_code_uc.png"
 
       paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
 
-    - image: "images/usecases/carou_img/img4.png"
+    - image: "images/usecases/carou_img/img5.png"
       title: "User-based control of inbound communication requests"
       para: "Improve users privacy and security by granting them the ability to manage inbound communication requests. "
       ## scan me :
@@ -49,9 +49,9 @@ content:
 
       paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
 
-    - image: "images/usecases/carou_img/img4.png"
-      title: "Secure wallet for credential storage"
-      para: "Mitigate and reduce risks of identity thefts through a secure storage of user’s sensitive information."
+    - image: "images/usecases/carou_img/img6.png"
+      title: "Scan to Pay"
+      para: "Facilitate payment processing between users and merchants by ensuring non-repudiation of transactions without the need of 3D Secure."
       ## scan me :
       imageQR : "/images/usecases/qr_code_uc.png"
 
