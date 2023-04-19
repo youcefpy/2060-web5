@@ -7,7 +7,7 @@
   .portfolio-feature:nth-child(even) {
     background-color: #e4f3f2;
     max-width: none;
-    padding: 40px;
+    // padding: 40px;
     
     @media (min-width: 1440px) {
          .desc-usecase{
@@ -18,7 +18,7 @@
   
 .portfolio-feature-container {
     max-width: none;
-    width: 1170px;
+    max-width: 1170px;
     margin:0 auto;
     display:flex;
     justify-content: space-between;
@@ -35,14 +35,13 @@
   }
 
   .img-fuild{
-    height: 650px;
     width: 100%;
-    padding: 3rem;
+    padding: 0rem;
   }
   .img-fuild-left{
     padding-top: 0rem;
     margin-top: 2rem;
-    width: 23%;
+    width: 18%;
     vertical-align: middle;
     margin-bottom: 2.2rem;
   }

@@ -3,7 +3,7 @@ id: "usecases"
 
 # para_uc_top : "To run the examples, please make sure you downloaded the 2060 client."
 content:
-  - image: "/images/usecases/p2p-secure-invitation.png"
+  - image: "/images/usecases/p2p.png"
     img:  "/images/usecases/img-p2p.png"
     title: "P2P secure invitation"
     text: "Peer-to-Peer secure invitations provide a secure and efficient way to invite and onboard new users to platforms, services, or networks, using time-bound unique invitation codes."
@@ -11,9 +11,9 @@ content:
     buttons: 
       - label: "Scan me"
         url: "#"
-    imgScan : "/images/usecases/img3.png"
+    imgScan : "/images/usecases/img6.png"
 
-  - image: "/images/usecases/id-issuance.png"
+  - image: "/images/usecases/id-card.png"
     img:  "/images/usecases/img-idcard-issuance.png"
     title: "Id card issuance"
     text: "Issuing ID cards through a chatbot-based system that utilises the user’s handset biometrics and allows for customisable instructions."
@@ -23,7 +23,7 @@ content:
         url: "#"
     imgScan : "/images/usecases/img6.png"
 
-  - image: "/images/usecases/credit-card-issuance.png"
+  - image: "/images/usecases/credit-card.png"
     img:  "/images/usecases/img-cci.png"
     title: "Credit card issuance"
     text: "Authentication of credit cards ordering and submission processes using Verifiable Credentials based interactions via chatbots and secure connections with banking infrastructure."
@@ -44,7 +44,7 @@ content:
         url : "#"
     imgScan: "/images/usecases/img12.png"
 
-  - image: "/images/usecases/api-token-mgnt.png"
+  - image: "/images/usecases/api-aceess-token.png"
     img: "/images/usecases/img-aat.png" 
     title: "API Access Token Issuance"
     text : "Issuing API access tokens through Verifiable Credentials can provide a secure and efficient way to grant access to authorised parties while maintaining control over data and resources."
@@ -54,7 +54,7 @@ content:
         url : "#"
     imgScan: "/images/usecases/img9.png"
 
-  - image: "/images/usecases/3p-access-mgnt.png"
+  - image: "/images/usecases/tpa.png"
     img: "/images/usecases/img-tpa.png" 
     title: "Third party account creation and login"
     text : "Employing bots to generate and access authorised third-party accounts and services can streamline processes and increase efficiency in various industries, without a compromise on security."
