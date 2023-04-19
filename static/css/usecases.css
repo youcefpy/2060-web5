@@ -62,6 +62,8 @@
 .para-slide{
     font-size: 15px;
     color: #073B4C;
+    line-height: 25px;
+    height: 60px;
 }
 
 .div-btn-scan-me button{
@@ -147,10 +149,13 @@ border-radius: 51px;
 .swiper-slide-verso .title-slide{
   height: 50px;
   margin-top: 0;
+  
 }
 
 .swiper-slide-recto .title-slide{
   margin-top: 2rem;
+  line-height: 25px;
+  height: 50px;
 }
 
 .swiper-slide-verso .para-slide {
