@@ -29,9 +29,11 @@
 .github-header{
   width: 50px;
   height: 40px;
-  margin-right: 3px;
-  margin: 0 auto;
+  // margin-right: 3px;
+  margin: 0 auto ;
 }
+
+
 .dwn-style{
   width: 20px;
   height: 15px;
@@ -43,3 +45,16 @@
 
 }
 
+
+
+
+/* Mobile Version ...  */
+
+
+@media screen and (max-width : 768px) {
+  .github-header{
+     width: 50px;
+     height: 40px;
+     margin: 0 auto 0 8.3rem ;
+  }
+}
