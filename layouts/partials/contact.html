@@ -1,30 +1,32 @@
 <section class="section contact_form py-5" >
     <div class="container">
       <div class="row portfolio-feature ">
-            <div class="col-4 col-xl-6 d-flex flex-column">
-              <form action="https://public.herotofu.com/v1/4665b380-dc09-11ed-9588-b37292643969" method = "POST" class="form-contact">
-                <div class="mb-3 mt-3">
-                  <label for="name" class="form-label">Name</label>
-                  <input type="name" class="form-control" id="name" placeholder="Enter your full name" name="name">
-                </div>
-                <div class="mb-3 ">
-                  <label for="email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="Enter your email address" name="email">
-                </div>
-                <div class="mb-3">
-                  <label for="phone" class="form-label">Phone Number</label>
-                  <input type="tel" class="form-control" id="phone" placeholder="xx xxx xxxx xxxxx" name="phone">
-                </div>
-                <div class="mb-3">
-                  <label for="message" class="form-check-label mb-2">Message</label><br>
-                  <textarea name="message" id="message" placeholder="Edit..." ></textarea>
-                </div>
-                <div class="buttons-s-c">
-                  <input type="reset" value="Reset" class="btn  clear-button">
-                 
-                  <button type="submit" class="btn submit-button">Submit</button>
-                  
-                </div>
+            <div class="col-12 col-xl-6 d-flex flex-column ">
+              {{ with .actionForm }}
+                <form action="{{ . }}" method = "POST" class="form-contact">
+              {{ end }} 
+               
+                  <div class="mb-3 mt-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="name" class="form-control" id="name" placeholder="Enter your full name" name="name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email address" name="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="xx xxx xxxx xxxxx" name="phone">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-check-label mb-2">Message</label><br>
+                    <textarea name="message" id="message" placeholder="Edit..." ></textarea>
+                  </div>
+                  <div class="buttons-s-c">
+                    <input type="reset" value="Reset" class="btn  clear-button">
+                    <button type="submit" class="btn submit-button">Submit</button>                 
+                  </div>
+              
               </form> 
             </div>
             <div class="col-12 col-xl-6 d-flex flex-column contact-text">
@@ -52,7 +54,7 @@
               
             </div>
        </div>
-      </div>
+    </div>
 </section>
 
 

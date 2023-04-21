@@ -44,3 +44,19 @@
 .para-policy{
     margin-top:45px ;
 }
+
+
+@media only screen and (max-width : 768px){
+    .shred-nl-cnt {
+        flex-direction: column;
+      }
+      .div1-contact, .div2-newslettre {
+        width: 100%;
+      }
+      .div1-contact{
+        margin-bottom: 20px;
+      }
+      .btn-submit{
+        margin-top: 25px !important;
+      }
+} 
