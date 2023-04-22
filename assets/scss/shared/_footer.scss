@@ -95,3 +95,12 @@ footer{
     width: 70%;
 }
 
+@media only screen and (max-width:768px){
+    .footer-content ul li{
+        width: 100%;
+    }
+    .list-location li{
+        width: 70% !important;
+        margin-left: 50px;
+    }
+}
