@@ -26,11 +26,11 @@
                 <p class="text-black-61 pb-3">{{ . }}</p>
               {{ end }}
               
-              <ol>
+              <!-- <ol>
                   {{ range $index, $elem := .list_desc }}
                       <li add $index 1> {{ $elem.elem }} </li>
                   {{ end }}
-                </ol>
+                </ol> -->
 
             </div>
             <div class="">
@@ -39,7 +39,7 @@
               {{ end }}
               
               {{ with .imgScan }}
-                <img src="{{ . }}" alt="img-sign" class="img-fuild-left" height="120px" width="150px">
+                <img src="{{ . }}" alt="img-sign" class="img-scan-usecases-qr-code img-fuild-left" height="120px" width="150px">
               {{ end }}
 
             </div>
