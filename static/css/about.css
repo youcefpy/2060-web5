@@ -1,16 +1,17 @@
-
 .text-abt{
-    font-size: 20px;
+    font-size: 1.6rem;
     color:#073B4C ;
-    width: 80%;
-    margin-top: 3rem;
+    width: 100%;  
+    line-height: 2rem;
+    margin-bottom: 1.6rem ;  
+    text-align: justify;
 }
 
 .title-abt{
     font-size: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
     color: #3EBDB6;
-    margin-top: 2rem;
+ 
 }
 .txt-team{
     font-size: 25px;
@@ -38,7 +39,36 @@
 
 
 .img-about-container img{
-    height: 600px;
-    margin-right: 6rem;
+    height: auto;
+    width: 100%;
+    margin-top: 1.4rem !important;
+
 }
 
+
+@media only screen and (max-width :768px)  {
+    .img-about-container {
+       
+       margin: 0 auto ;
+    }
+    .img-about-container img{
+        height: 440px;
+        width: 350px;
+    }
+    .container-content-about{
+        margin: 0 auto;
+    }
+    .text-abt{
+        font-size: 1.2rem;
+    }
+    .title-abt{
+        font-size: 1.4rem;  
+    }
+    .class-team-about{
+        display: flex;
+        flex-direction:column ;
+        justify-content: center;
+    }
+ 
+    
+}
