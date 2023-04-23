@@ -5,13 +5,16 @@
             <div class="col-4 d-flex justify-content-center img-about-container">
             <img src="/images/download_images/2060-download.png" />
          </div>
-            <div class="col-8 d-flex flex-column container-content-about ">
-                <h3 class="title-abt">Our vision</h3>
-                <p class="text-abt">We aspire to offer <span style="font-weight: 900; color: #073B4C;">open-standards-based tools</span>  that will democratise the usage of Verifiable Credentials. We provide the<span style="font-weight: 900; color: #073B4C;"> building blocks </span>that enable fully  <span style="font-weight: 900;font-size:1.3rem; color: #073B4C;"> interoperable</span> and decentralised <span style="font-weight: 900;font-size:1.3rem; color: #073B4C;"> peer-to-peer </span> group <span style="font-weight: 900;font-size:1.3rem; color: #073B4C;"> communication channels</span>, with no vendor lock-in.
-                </p>
-                <p class="text-abt">
-                    Our goal is to empower end-users with <span style="font-weight: 900;font-size:1.3rem; color: #073B4C;">  data</span> <span style="font-weight: 900;font-size:1.3rem; color: #073B4C;"> control and privacy</span>, while advancing <span style="font-weight: 900;font-size:1.3rem; color: #073B4C;"> trust between entities</span>.
-                </p>
+            <div class="col-md-8 col-sm-12 d-flex flex-column container-content-about ">             
+                <h3 class="title-abt">{{ .title_about_md }}</h3>
+                {{ with .para1 }}
+                    <p class="text-abt">{{ . }}</p>                 
+                {{ end }}
+                
+
+                {{ with .para2 }}
+                    <p class="text-abt">{{ . }}</p>                 
+                {{ end }}
                
             </div>
         </div>
