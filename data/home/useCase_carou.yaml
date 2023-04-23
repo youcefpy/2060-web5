@@ -14,6 +14,7 @@ content:
       para: "Employing bots to generate and access authorised third-party accounts and services can streamline processes and increase efficiency in various industries, without a compromise on security."
       # scan me : 
       imageQR : "/images/usecases/qr_code_uc.png"
+      btn_lm_uc_c: "/usecases"
       paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
       
     - image: "images/usecases/carou_img/img2.png"
@@ -21,7 +22,7 @@ content:
       para: "Peer-to-Peer secure invitations provide a secure and efficient way to invite and onboard new users to platforms, services, or networks, using time-bound unique invitation codes."
       ## scan me :
       imageQR : "/images/usecases/qr_code_uc.png"
-     
+      btn_lm_uc_c: "/usecases"
       paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
 
 
@@ -30,7 +31,7 @@ content:
       para: "Issuing ID cards through a chatbot-based system that utilises the user’s handset biometrics and allows for customisable instructions."
       ## scan me :
       imageQR : "/images/usecases/qr_code_uc.png"
-   
+      btn_lm_uc_c: "/usecases"
       paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
 
     - image: "images/usecases/carou_img/img4.png"
@@ -38,7 +39,7 @@ content:
       para: "Authentication of credit cards ordering and submission processes using Verifiable Credentials based interactions via chatbots and secure connections with banking infrastructure."
       ## scan me :
       imageQR : "/images/usecases/qr_code_uc.png"
-
+      btn_lm_uc_c: "/usecases"
       paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
 
     - image: "images/usecases/carou_img/img5.png"
@@ -46,7 +47,7 @@ content:
       para: "Improve users privacy and security by granting them the ability to manage inbound communication requests. "
       ## scan me :
       imageQR : "/images/usecases/qr_code_uc.png"
-
+      btn_lm_uc_c: "/usecases"
       paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
 
     - image: "images/usecases/carou_img/img6.png"
@@ -54,6 +55,6 @@ content:
       para: "Facilitate payment processing between users and merchants by ensuring non-repudiation of transactions without the need of 3D Secure."
       ## scan me :
       imageQR : "/images/usecases/qr_code_uc.png"
-
+      btn_lm_uc_c: "/usecases"
       paraqr : "After downloading the 2060 app, scan this QR-Code to test this use case"
       
