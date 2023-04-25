@@ -9,7 +9,7 @@ content:
   cards:
     - image: "/images/about/img2.png"
       title: "Fabrice Rochette"
-      text: "<span>Co-Founder and CEO</span>"
+      text: "Co-Founder and CEO"
       description : "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,.."
       qrscan: "/images/about/scan1.png"
       github: "#"
