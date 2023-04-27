@@ -1,7 +1,7 @@
 ---
 title: "Usecases"
 layout: usecases
-url: "/usecases/"
+url: "/2060-usecases/"
 ---
 
 

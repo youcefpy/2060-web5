@@ -39,19 +39,19 @@ params:
 menus:
   main:
     - name: "Home"
-      url: "/#hero"
+      url: "/"
       weight: 1
 
     - name: "Use Cases"
-      url: "/usecases"
+      url: "/2060-usecases"
       weight: 2
 
     - name: "About"
-      url: "/about"
+      url: "/2060-about"
       weight: 3
 
     - name: "Contact"
-      url: "/contact/"
+      url: "/2060-contact/"
       weight: 4
 
     # - name: "Blog"

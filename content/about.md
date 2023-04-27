@@ -1,7 +1,7 @@
 ---
 title: "About"
 layout: about
-url : "/about/"
+url : "/2060-about/"
 draft: false
 
 ---

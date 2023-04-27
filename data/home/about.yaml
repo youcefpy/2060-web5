@@ -1,5 +1,5 @@
 enable : true
-id : "about"
+id : "2060-about"
 
 title_about_md : "Our Vision"
 para1 : "We aspire to offer open-standards-based tools that will democratise the usage of Verifiable Credentials. We provide the building blocks that enable fully interoperable and decentralised peer-to-peer group communication channels, with no vendor lock-in."

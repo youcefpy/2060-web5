@@ -15,6 +15,13 @@
   padding: 0 2rem;
 }
 
+.header-nav-sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 15;
+}
+
 .navbar-collapse .nav-menu li a{
   text-decoration: none;
   padding: 1rem 0 0.3rem 0 !important;
@@ -58,3 +65,4 @@
     //  margin: 0 auto 0 8.3rem ;
   }
 }
+

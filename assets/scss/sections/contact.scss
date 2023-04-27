@@ -60,3 +60,18 @@
         margin-top: 25px !important;
       }
 } 
+
+@media only screen and (min-width : 768px) and (max-width:1300px){
+   
+    .shred-nl-cnt{
+        flex-direction: column;
+        margin-left: 210px;
+    }
+    .div1-contact, .div2-newslettre {
+        width: 100%;
+        max-width: 100%;
+      }
+      .div1-contact{
+        margin-bottom: 30px;
+      }
+}

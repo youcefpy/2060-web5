@@ -81,3 +81,15 @@
  
     
 }
+@media only screen and (min-width : 768px) and (max-width:1300px) {
+  
+    .img-about-container {
+        width: 60% !important;
+    }
+
+    .row.flex-column.flex-xl-row-reverse{
+        justify-content: center;
+        align-content: center;
+    }
+}
+

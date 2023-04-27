@@ -1,6 +1,6 @@
 ---
 title : "contact"
 layout: contact
-url : "/contact/"
+url : "/2060-contact/"
 ---
 

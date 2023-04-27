@@ -1,16 +1,15 @@
-<nav class="navbar navbar-expand-xl navbar-light bg-light py-4">
+<nav class="navbar navbar-expand-xl navbar-light bg-light py-4 header-nav-sticky">
   <div class="container">
     <div class="logo-header">
-      <a class="navbar-brand d-flex align-items-center" href="{{ .Site.BaseURL }}">
+      <a class="navbar-brand d-flex align-items-center" href="/">
         {{ partial "utilities/image.html" "images/header/bg_header.png" }}
-        <!-- <span class="fs-3 fw-semibold text-uppercase text-primary">{{ .Site.Title }}</span> -->
       </a>
     </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarContent">
-      <ul class="navbar-nav nav-menu ms-auto mb-2 mb-xl-0">
+      <ul class="navbar-nav nav-menu  mb-2 mb-xl-0">
         {{ range .Site.Menus.main }}
           <li class="nav-item text-center">
             <a class="nav-link text-primary px-4 col-navbar" href="{{ .URL }}">{{ .Name }}</a>

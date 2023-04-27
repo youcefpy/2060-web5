@@ -9,6 +9,11 @@
   background-size: cover;
 } 
 
+.nav-item{
+  font-weight: bold !important;
+  
+
+}
 
 a.col-navbar {
     color: #073B4C !important;
@@ -43,4 +48,13 @@ a.col-navbar {
 
 .us-txt{
   color:#3EBDB6 !important;
+}
+
+
+@media screen and (min-width:1170px) {
+  .navbar-nav.nav-menu.mb-2.mb-xl-0 {
+    margin-left: 20.5rem;
+    margin-right: 5rem;
+  }
+  
 }
