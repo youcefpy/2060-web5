@@ -4,8 +4,8 @@
     background-size: cover;
 }
 .download .imgdown img{
-    width: 73%;
-    padding: 1rem;
+    width: 91%;
+    padding: 0;
 }
 .const-btn{
     color: #0893FF !important;
@@ -18,11 +18,18 @@
     
 }
 .download .txt-dwn {
-    font-size: 36px !important;
-    color: #073B4C;
-    width: 89%;
-    line-height: 64px;
+    font-size: 1.5rem !important;
+    color: #343434;
+    width: 80%;
+    
   }
 .download .dwn-btns{
     margin-right: 1.2rem !important;
+    padding: 0.7rem;
+    font-family: 'EuclidCircularA-Medium';
   }
+
+//   .dwn-btns:hover{
+//     background-color: #0893FF !important;
+//     color: #FFF !important;
+//   }

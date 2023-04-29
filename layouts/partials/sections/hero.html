@@ -3,20 +3,20 @@
     
     <div class="row flex-column flex-xl-row-reverse">
       <!-- {{ partial "utilities/image-fluid"  "images/background_header.png" }} -->
-      <div class="col-12 col-xl-6  d-flex flex-column justify-content-center hero-image">
+      <div class="col-12 col-xl-6  d-flex flex-column  hero-image">
         <img src="images/header/new-2060-home.png" class="img-top"/>
       </div>
 
-      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+      <div class="col-12 col-xl-6 d-flex flex-column div-right-content-text ">
         {{ with .content.title }}
-          <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4" style="color: #073B4C !important;" >{{ . | markdownify }}</h3>
+          <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4 h3-title-home" style="color: #073B4C !important;" >{{ . | markdownify }}</h3>
         {{ end }}
         {{ with .content.text }}
-          <p class="text-center text-black-61 text-xl-start pb-4">{{ . | markdownify }}</p>
+          <p class="text-center text-black-61 text-xl-start pb-4 txt-hero">{{ . | markdownify }}</p>
         {{ end }}
-        <div class="d-flex flex-column flex-xl-row">
+        <div class="d-flex flex-column flex-xl-row btns-conatiner-home">
           {{ with .content.buttonPrimary }}
-            <a class="btn btn-primary text-light px-4 my-1 " href="{{ .url }}">
+            <a class="btn btn-primary p-2 text-light px-4 my-1" href="{{ .url }}">
               {{ with .icon }}
                 <img src="{{ . }}" width="20px" height="15px" class="me-2" >
               {{ end }}
@@ -24,10 +24,27 @@
             </a>
           {{ end }}
           {{ with .content.buttonSecondary }}
-            <a class="btn btn-outline-primary px-4 my-1 ms-xl-4" href="{{ .url }}">{{ .label }}</span></a>
+            <a class="btn btn-outline-primary p-2 px-4 my-1 ms-xl-4 btn-uc-hm-main-div" href="{{ .url }}">{{ .label }}</span></a>
           {{ end }}
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
+<script>
+    (function(){
+        var elements = document.querySelectorAll('.btns-conatiner-home')
+        var traitement = function(element){
+          element.addEventListener('mouseenter',function(){
+            this.style.transition= "0.5s all"
+            this.style.background = "#073B4C"
+            this.style.color ='#FFF'
+          })   
+        }
+
+
+
+    })
+</script>

@@ -3,8 +3,8 @@ id: "doanload"
 
 content:
   title: "Download"
-  text : "Get a sneak peak of the above-mentioned features, and more, by downloading our App built on top of 2060.io"
-
+  text : "We offer open and interoperable protocols that enable authentic data integration into your messaging applications."
+  text2 : "Get a sneak peak of the above- mentioned features and more by downloading the 2060 app now."
   buttonplay:
     icon: "/images/icons/play_store.png"
     label: "Play Store"
