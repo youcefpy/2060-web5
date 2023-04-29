@@ -11,7 +11,7 @@ content:
     buttons: 
       - label: "Scan me"
         url: "#"
-    imgScan : "/images/usecases/img6.png"
+    # imgScan : "/images/usecases/img6.png"
 
   - image: "/images/usecases/id-card.png"
     img:  "/images/usecases/img-idcard-issuance.png"
@@ -21,7 +21,7 @@ content:
     buttons: 
       - label: "Scan me"
         url: "#"
-    imgScan : "/images/usecases/img6.png"
+    # imgScan : "/images/usecases/img6.png"
 
   - image: "/images/usecases/credit-card.png"
     img:  "/images/usecases/img-cci.png"
@@ -31,7 +31,7 @@ content:
     buttons: 
       - label: "Scan me"
         url: "#"
-    imgScan: "/images/usecases/img9.png"
+    # imgScan: "/images/usecases/img9.png"
 
 
   - image: "/images/usecases/scan-to-pay.png"
@@ -42,7 +42,7 @@ content:
     buttons:
       - label: "Scan me"
         url : "#"
-    imgScan: "/images/usecases/img12.png"
+    # imgScan: "/images/usecases/img12.png"
 
   - image: "/images/usecases/api-aceess-token.png"
     img: "/images/usecases/img-aat.png" 
@@ -52,7 +52,7 @@ content:
     buttons:
       - label: "Scan me"
         url : "#"
-    imgScan: "/images/usecases/img9.png"
+    # imgScan: "/images/usecases/img9.png"
 
   - image: "/images/usecases/tpa.png"
     img: "/images/usecases/img-tpa.png" 
@@ -62,4 +62,4 @@ content:
     buttons:
       - label: "Scan me"
         url : "#"
-    imgScan: "/images/usecases/img12.png"
+    # imgScan: "/images/usecases/img12.png"

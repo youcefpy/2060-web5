@@ -14,10 +14,21 @@
     color: #073B4C;
 }
 
+#message {
+    width: 100%;
+    height: 14rem;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    resize: none;
+  }
+
 .buttons-s-c{
     display: flex;
     justify-content: flex-end;
     
+}
+.contact_form{
+    margin-bottom: 4rem;
 }
 .clear-button{
     width: 150px;
@@ -59,6 +70,9 @@
 }
 .contact-text .img-check{
     width: 10%;
+}
+.img-sl{
+    width: 15px !important;
 }
 .contact-text .title-contact-rt{
     font-size: 2.2rem !important;

@@ -12,13 +12,13 @@ content:
       text: "Co-Founder and CEO"
       description : "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,.."
       qrscan: "/images/about/scan1.png"
-      github: "#"
+      twitter: "#"
       linkedin : "#"
     - image: "/images/about/img3.png"
       title: "Ariel Gentile"
       text: "Co-Founder and CEO"
       description : "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,.."
       qrscan: /images/about/scan2.png
-      github: "#"
+      twitter: "#"
       linkedin : "#"
 

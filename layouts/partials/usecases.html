@@ -23,7 +23,7 @@
                 <h3 class="fs-1 fw-bold text-primary pb-3" style="color: #3EBDB6 !important;">{{ . }}</h3>
               {{ end }}
               {{ with .text }}
-                <p class="text-black-61 pb-3">{{ . }}</p>
+                <p class="text-black-61 pb-3 para-uc-container">{{ . }}</p>
               {{ end }}
               
               <!-- <ol>
@@ -33,16 +33,16 @@
                 </ol> -->
 
             </div>
-            <div class="">
-              {{ range .buttons }}
-                <p class="text-decoration-none me-3 scan-link" href="{{ .url }}">{{ .label }} <i class="fas fa-arrow-right right-arrow"></i></p>
-              {{ end }}
-              
-              {{ with .imgScan }}
-                <img src="{{ . }}" alt="img-sign" class="img-scan-usecases-qr-code img-fuild-left" height="120px" width="150px">
-              {{ end }}
-
-            </div>
+            {{ range .buttons }}
+              <a href="{{ .url }}" class="anc-btn-uc-sm">
+                <div class="cls-btn-uc-container">
+                  <p class="text-decoration-none me-3 scan-link">{{ .label }} <i class="fas fa-arrow-right right-arrow"></i></p>
+                  <!-- {{ with .imgScan }}
+                    <img src="{{ . }}" alt="img-sign" class="img-scan-usecases-qr-code img-fuild-left" height="120px" width="150px">
+                  {{ end }} -->
+                </div>
+              </a>
+            {{ end }}
           </div> 
       </div>
       </div>

@@ -20,7 +20,8 @@
 .dsc-team{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-left: 23px !important;
+    padding-top: 40px !important;
     color: #FFFFFF;
     background-color: #7678ED;
     border-radius: 3px;
@@ -74,6 +75,12 @@
         display: flex;
         flex-direction:column ;
         justify-content: center;
+        border-top-left-radius: 0.25rem !important;
+        border-bottom-left-radius: 0.25rem !important;
+
+    }
+    .card{
+        border-radius: 0px !important;
     }
     .qr-img-container-about{
         margin-top: 1rem !important;

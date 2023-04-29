@@ -3,7 +3,7 @@ id : "contact"
 
 
 title: "Get in touch with our team to:"
-actionForm : "https://public.herotofu.com/v1/4665b380-dc09-11ed-9588-b37292643969"
+actionForm : ""
 content:
   listRule:
     - list: "Integrate: "
