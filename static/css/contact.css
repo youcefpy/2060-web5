@@ -105,9 +105,18 @@ border-left-color: rgba(52, 52, 52, 0.18);
 @media only screen and (max-width : 768px) {
 
     .section.contact_form{
-        display: flex;
-        flex-direction: column;
+        padding: 1rem;
         
+    }
+
+    .title-contact-rt{
+        padding-left: 0 !important ;
+    }
+    .contact-text ul{
+        padding-left: 0 !important;
+    }
+    .contact-conatiner-form-and-desc{
+        flex-direction: column-reverse;
     }
     .form-contact{
         display: flex;

@@ -59,10 +59,21 @@
         width: 100%;
       }
       .div1-contact{
-        margin-bottom: 20px;
+        margin-bottom: 60px;
       }
       .btn-submit{
         margin-top: 25px !important;
+      }
+      .para-contact{
+        white-space: normal;
+
+        
+      }
+      .para-contact br {
+        display: none;
+      }
+      .div2-newslettre p > br {
+        display: none;
       }
 } 
 

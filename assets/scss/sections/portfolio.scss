@@ -11,8 +11,10 @@
     background-color: rgba($color: #3EBDB6, $alpha: 0.1);
     max-width: none;
     // padding: 40px;
-    
-    @media (min-width: 1440px) {
+
+
+/*********************************************************** Media Min width 1440px ***************/
+@media (min-width: 1440px) {
          .desc-usecase{
           margin-left:80px ;
          }
@@ -63,9 +65,16 @@
   .text-content p{
     font-size: 1.2rem;
   }
+  .desc-usecase-for-mobile{
+    display: none;
+    line-height: 0 !important;
+  }
 
 
 }
+
+
+/******************************************** Media max width 768px ***************************************/
 
 @media only screen and (max-width:768px) {
     .portfolio-feature-container{
@@ -74,12 +83,24 @@
     }
     .img-container-uc{
       width: 100%;
-      padding-top: 1.2rem;
+      // padding-top: 1.2rem;
+      margin-top: 0 !important;
+    }
+    .para-uc-container{
+      padding-bottom: 0 !important ;
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+      // text-align: center;
+      padding-right: 2rem;
+     }
+     .cls-btn-uc-container {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
     }
     .desc-usecase{
       width: 100%;
       // padding: 1.2rem;
-      margin-left: 1rem;
+      // margin-left: 1rem;
       padding-left: 2rem;
       margin-top: 0rem !important;
       margin-bottom: 1rem !important;
@@ -95,5 +116,32 @@
     }
     .text-content p{
       padding-bottom: none  !important;
+    }
+    .img-fuild-left{
+      display: none;
+    }
+    .h3-uc-title{
+      display: none;
+    }
+    .desc-usecase-for-mobile {
+      display: block !important;
+      margin:0 auto;
+      width: 100%;
+
+    }
+    .desc-usecase-for-mobile h3{
+      width: 100%;
+      // margin: 0 auto !important;
+      text-align: center;
+      line-height: 35px !important;
+      margin-top: 2rem !important;
+      padding: 0 !important;
+      margin-bottom: 0 !important;
+    }
+    .anc-btn-uc-sm{
+      // text-align: center ;
+      margin-top: 0 !important;
+      padding: 0 !important;
+      margin-bottom: 2rem !important;
     }
 }

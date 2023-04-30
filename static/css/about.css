@@ -51,12 +51,35 @@
     margin-top: 1.4rem !important;
 
 }
+.title-about-for-mobile h3{
+    display: none !important;
+}
 
 
 @media only screen and (max-width :768px)  {
+
     .img-about-container {
        
        margin: 0 auto ;
+    }
+    .title-about-for-mobile h3{
+        display: block !important;
+        text-align: center;
+        padding-bottom: 0 !important;
+
+    }
+    .card-about-team{
+        flex-direction: column;
+    }
+    .card-about-team .class-team-about{
+        width: 100%;
+    }
+    .card-about-team .dsc-team{
+        width: 100%;
+        margin-bottom: 5rem ;
+    }
+    .container-content-about h3{
+        display: none ; 
     }
     .img-about-container img{
         height: 440px;
