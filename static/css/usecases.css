@@ -25,16 +25,17 @@
     height: 100%;
     perspective: 1000px;
   }
-  .swiper-wrapper{
+  */
+  /* .swiper-wrapper{
    width: 100%;
-   height:360px ;
+   height:650px ;
    
-  } */
+  }  */
 
   .swiper-slide {
     font-size: 18px;
     background: #fff;
-    height: 410px !important;
+    height: 500px !important;
     border-radius: 7px;
     overflow: hidden;
     
@@ -42,12 +43,12 @@
 
   .swiper-slide-recto{
     transition: 1s all;
-    padding: 30px ;
-    height: 410px;
+    padding: 40px ;
+    height: 500px;
   }
   .swiper-slide-verso{
-    height: 410px;
-    padding: 30px ;
+    height: 500px;
+    padding: 40px ;
     background-color: #fff;
   }
 
@@ -62,7 +63,7 @@
 .para-slide{
     font-size: 15px;
     color: #073B4C;
-    line-height: 25px;
+    line-height: 28px;
     height: 60px;
 }
 
@@ -165,6 +166,7 @@ border-radius: 51px;
 
 #button-flip-back{
   background-color: rgba(7, 59, 76, 0.05);
+  margin-top: 4rem;
 }
 
 
