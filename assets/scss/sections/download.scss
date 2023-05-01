@@ -29,7 +29,24 @@
     font-family: 'EuclidCircularA-Medium';
   }
 
+.dowmload-mobile-container h3{
+    display: none;
+}
+
 //   .dwn-btns:hover{
 //     background-color: #0893FF !important;
 //     color: #FFF !important;
 //   }
+
+@media only screen and (max-width:768px) {
+    .dwn-desc-content .title-dwn{
+        display: none;
+    }
+    .dowmload-mobile-container h3{
+        display: block;
+    }
+    .download .txt-dwn{
+        width: 100%;
+        padding: 1rem;
+    }
+}

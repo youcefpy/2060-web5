@@ -1,6 +1,12 @@
 <section class="section hero py-5" >
   <div class="container">
     
+    <div class="container txt-hero-for-mobile">
+      {{ with .content.title }}
+      <h3 class="hero-title fw-bold display-1 text-primary text-center text-xl-start pb-4 h3-title-home-mobile" style="color: #073B4C !important;" >{{ . | markdownify }}</h3>
+      {{ end }}
+    </div>
+
     <div class="row flex-column flex-xl-row-reverse">
       <!-- {{ partial "utilities/image-fluid"  "images/background_header.png" }} -->
       <div class="col-12 col-xl-6  d-flex flex-column  hero-image">

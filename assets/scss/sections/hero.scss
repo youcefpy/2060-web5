@@ -75,6 +75,10 @@ a.col-navbar {
   color:#3EBDB6 !important;
 }
 
+.txt-hero-for-mobile{
+  display: none;
+}
+
 
 @media screen and (min-width:1170px) {
   .navbar-nav.nav-menu.mb-2.mb-xl-0 {
@@ -82,4 +86,23 @@ a.col-navbar {
     margin-right: 5rem;
   }
   
+}
+
+
+@media screen and (max-width : 768px) {
+    .txt-hero-for-mobile{
+      display: block;
+    }
+    .h3-title-home{
+      display: none;
+    }
+    .hero-image{
+      width: 100%;
+      margin-left: 0;    
+    }
+    .div-right-content-text{
+      margin-top: 1rem;
+      width: 100% !important;
+      
+    }
 }
