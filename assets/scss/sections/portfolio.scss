@@ -73,6 +73,12 @@
 
 }
 
+.qr-scan-uc-btn svg{
+  vertical-align: text-bottom ;
+  padding-left:2px ;
+}
+
+
 
 /******************************************** Media max width 768px ***************************************/
 
@@ -138,10 +144,10 @@
       padding: 0 !important;
       margin-bottom: 0 !important;
     }
-    .anc-btn-uc-sm{
-      // text-align: center ;
-      margin-top: 0 !important;
-      padding: 0 !important;
-      margin-bottom: 2rem !important;
-    }
+    // .anc-btn-uc-sm{
+    //   // text-align: center ;
+    //   margin-top: 0 !important;
+    //   padding: 0 !important;
+    //   margin-bottom: 2rem !important;
+    // }
 }

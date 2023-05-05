@@ -79,6 +79,24 @@ a.col-navbar {
   display: none;
 }
 
+.hero-image{
+  position: relative;
+}
+.img-top {
+  position: relative;
+  // top: 0;
+}
+
+.img-phone {
+  position: absolute;
+  width: 50% !important;
+  height: auto !important;
+  right: -5rem;
+  top: 0;
+  // top: 0;
+  // z-index: 1;
+
+}
 
 @media screen and (min-width:1170px) {
   .navbar-nav.nav-menu.mb-2.mb-xl-0 {
@@ -104,5 +122,12 @@ a.col-navbar {
       margin-top: 1rem;
       width: 100% !important;
       
+    }
+    .img-phone{
+      position: absolute;
+      width: 40% !important;
+      height: auto !important;
+      right: 0;
+    
     }
 }
