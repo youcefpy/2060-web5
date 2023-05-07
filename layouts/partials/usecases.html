@@ -133,4 +133,16 @@
     
     
 </script>
+<script type="text/javascript">
+  $(function(){	
+     tabhash = document.location.hash.split('#');
+     var ancre = tabhash[1];
+     $("html:not(:animated),body:not(:animated)").scrollTop(0);
+     if(ancre != null){
+         var destination = $("#"+ancre).offset().top;
+         $("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination-80 + 'px'}, 4000, "easeOutQuart" );
+     }
+  });
+  </script>  
+
   

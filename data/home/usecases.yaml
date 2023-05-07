@@ -30,7 +30,7 @@ content:
     qr_scan_uc_img : "icons/usecases_icons/id_card_insurance.html"
     img:  "/images/usecases/img-cci.png"
     title: "Credit card issuance"
-    id : 'idcard'
+    id : 'creditcard'
     text: "Authentication of credit cards ordering and submission processes using Verifiable Credentials based interactions via chatbots and secure connections with banking infrastructure."
 
     buttons: 
