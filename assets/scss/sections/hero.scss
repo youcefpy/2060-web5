@@ -17,7 +17,7 @@
 .hero-image{
   width: 50%;
   // margin-left:1.5rem ;
-  margin-left: 8rem;
+  // margin-left: 8rem;
 }
 .div-right-content-text{
   width: 40% !important;
@@ -90,6 +90,7 @@ a.col-navbar {
 }
 .img-top {
   position: relative;
+  width: 100%;
   // top: 0;
 }
 .color-text{
@@ -105,6 +106,9 @@ a.col-navbar {
   // z-index: 1;
 
 }
+.home-head-content{
+  width: 75%;
+}
 .img-aries{
   position: absolute;
   bottom: -6rem;
@@ -115,7 +119,7 @@ a.col-navbar {
 .img-logo-didcomm{
   position: absolute;
   left: 14rem;
-  bottom: -6rem;
+  bottom: -6.5rem;
   width: 40%;
 }
 
@@ -126,6 +130,8 @@ a.col-navbar {
   }
   
 }
+
+
 
 
 @media screen and (max-width : 768px) {
@@ -151,4 +157,36 @@ a.col-navbar {
       right: 0;
     
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+.cube {
+  transform: scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transition: .5s all;
+  position: relative;
+}
+.cube img{
+  transform: scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transition: 1s all;
+}
+.cube-wrap {
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+}
+
+.home-top-container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  max-width: 1320px;
+  margin: 0 auto;
 }
