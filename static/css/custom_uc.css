@@ -13,6 +13,9 @@
     
 
 }
+.desc-usecase{
+    min-height: 700px;
+  }
 
 .back-btn{
     display: none;
@@ -32,11 +35,13 @@
 
 .qr-code-scan-replace-img{
     display: none;
-    
+    align-self: center;
+    margin: 0 auto ;
+    width: 80%;
 }
 
 .qr-code-scan-replace-img svg {
-    width: 400px !important;
+    width: 100%;
     
 }
 
@@ -64,4 +69,12 @@
     transition:0.5s all;
     background-color: #073B4C !important;
     color: #FFF !important;
+}
+
+
+
+@media screen and (max-width :768px) {
+    .desc-usecase{
+        min-height: auto;
+      }
 }
