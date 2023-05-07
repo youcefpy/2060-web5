@@ -6,7 +6,9 @@
       {{ end }} -->
 
       {{ range .content }}
-      <div class="row portfolio-feature">
+      {{ with .id }}
+        <div class="row portfolio-feature" id = "{{ . }}">
+      {{ end }}
         <div class="portfolio-feature-container">
           
           <div class="container desc-usecase-for-mobile">
