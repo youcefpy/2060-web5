@@ -6,10 +6,10 @@
         <p class="small pt-2" style="color: #02faee !important;">{{ .Site.Params.description }}</p>
         {{ with .Site.Params.social }}
         <ul class="d-flex justify-content-center justify-content-xl-start list-unstyled logo-gh-li-tw-footer">
-          {{ with .github }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16 col-a" style="color: #FFFFFF !important;" href="{{ . }}">{{ partial "icons/github.html" }}</a></li>{{ end }}
+          {{ with .github }}<li class="rounded-circle bg-icon-footer me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16 col-a" style="color: #FFFFFF !important;" href="{{ . }}">{{ partial "icons/icon_footer/github.html" }}</a></li>{{ end }}
           <!-- {{ with .instagram }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/instagram.html" }}</a></li>{{ end }} -->
-          {{ with .linkedin }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16 col-a " style="color: #FFFFFF !important;" href="{{ . }}">{{ partial "icons/linkedin.html" }}</a></li>{{ end }}
-          {{ with .twitter }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16 col-a" style="color: #FFFFFF !important;" href="{{ . }}">{{ partial "icons/twitter.html" }}</a></li>{{ end }}
+          {{ with .linkedin }}<li class="rounded-circle bg-icon-footer me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16 col-a " style="color: #FFFFFF !important;" href="{{ . }}">{{ partial "icons/linkedin.html" }}</a></li>{{ end }}
+          {{ with .twitter }}<li class="rounded-circle bg-icon-footer me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16 col-a" style="color: #FFFFFF !important;" href="{{ . }}">{{ partial "icons/twitter.html" }}</a></li>{{ end }}
         </ul>
         {{ end }}
       </div>

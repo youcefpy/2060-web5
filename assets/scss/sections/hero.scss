@@ -125,6 +125,13 @@ a.col-navbar {
 
 @media screen and (min-width:1170px) {
   .navbar-nav.nav-menu.mb-2.mb-xl-0 {
+    margin-left: 12.5rem;
+    margin-right: 5rem;
+  }
+  
+}
+@media screen and (min-width:1400px) {
+  .navbar-nav.nav-menu.mb-2.mb-xl-0 {
     margin-left: 20.5rem;
     margin-right: 5rem;
   }
@@ -176,7 +183,11 @@ a.col-navbar {
 }
 .cube img{
   transform: scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-  transition: 1s all;
+  transition: .8s all;
+}
+.img-top{
+  transform: scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  transition: 1.5s all !important;
 }
 .cube-wrap {
   perspective: 1000px;
