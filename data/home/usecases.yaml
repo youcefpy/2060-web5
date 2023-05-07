@@ -4,7 +4,7 @@ id: "usecases"
 # para_uc_top : "To run the examples, please make sure you downloaded the 2060 client."
 content:
   - image: "/images/usecases/p2p.png"
-    qr_scan_uc_img : "icons/usecases_icons/QR-code-obituary.html"
+    qr_scan_uc_img : "icons/usecases_icons/uc_img_1.html"
     img:  "/images/usecases/img-p2p.png"
     title: "P2P secure invitation"
     text: "Peer-to-Peer secure invitations provide a secure and efficient way to invite and onboard new users to platforms, services, or networks, using time-bound unique invitation codes."

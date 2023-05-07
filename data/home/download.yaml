@@ -3,8 +3,12 @@ id: "doanload"
 
 content:
   title: "Download"
-  text : "We offer open and interoperable protocols that enable authentic data integration into your messaging applications."
-  text2 : "Get a sneak peak of the above- mentioned features and more by downloading the 2060 app now."
+  text : "We offer "
+  bold_txt : "open and interoperable protocols"
+  txt2: "that enable authentic data integration into your messaging applications."
+  text3 : "Get a sneak peak of the above- mentioned features and more by downloading the  "
+  col_txt_dwn : "2060"
+  txt4 : "app now."
   buttonplay:
     # icon: "/images/icons/play_store.png"
     label: "Play Store"

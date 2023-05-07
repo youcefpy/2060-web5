@@ -7,7 +7,7 @@
 .scan-link{
     border: 1px solid rgba(7, 59, 76, 0.05) ;
     background-color: rgba(7, 59, 76, 0.05);
-    padding: 16px;
+    padding: 10px 30px;
     color: #073B4C;
     border-radius: 50px;
     
@@ -18,17 +18,26 @@
     display: none;
     border: 1px solid rgba(7, 59, 76, 0.05) ;
     background-color: rgba(7, 59, 76, 0.05);
-    padding: 16px;
+    padding: 10px 50px;
     color: #073B4C;
     border-radius: 50px;
+}
+.left-arrow{
+    margin-right: 0.5rem;
+}
+.left-arrow{
+    color: #3EBDB6;
 }
 
 
 .qr-code-scan-replace-img{
     display: none;
+    
 }
+
 .qr-code-scan-replace-img svg {
     width: 400px !important;
+    
 }
 
 

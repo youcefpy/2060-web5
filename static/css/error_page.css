@@ -13,3 +13,7 @@
 .container-img-para-error .para-error{
     margin-bottom: 3rem;
 }
+.para-error.text-center {
+    width: 70%;
+    margin-left: 14rem;
+  }

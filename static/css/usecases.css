@@ -51,6 +51,7 @@
     padding: 40px ;
     background-color: #fff;
   }
+  
 
 
 .title-slide{
@@ -168,8 +169,12 @@ border-radius: 51px;
   background-color: rgba(7, 59, 76, 0.05);
   margin-top: 4rem;
 }
-
-
+.container.usecase-container-carou {
+  height: 700px;
+}
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal.swiper-pagination-bullets-dynamic {
+  bottom: 8rem;
+}
 
 
 

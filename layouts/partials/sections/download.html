@@ -15,17 +15,25 @@
           {{ with .content.title }}
             <h3 class="text-center text-xl-start title-dwn">{{ . | markdownify }}</h3>
           {{ end }}
-          {{ with .content.text }}  
-            <p class="text-xl-start pb-4 txt-dwn">{{ . | markdownify}}</p>
+          {{ with .content }}  
+            <p class="text-xl-start pb-4 txt-dwn">
+              {{ .text | markdownify}}
+              <span class="bold-dwn-txt">{{ .bold_txt }}</span>
+              {{ .txt2 | markdownify }}
+            </p>
           {{ end }}
-          {{ with .content.text2 }}
-            <p class="text-xl-start pb-4 txt-dwn">{{ . | markdownify }}</p>
+          {{ with .content }}
+            <p class="text-xl-start pb-4 txt-dwn">
+              {{ .text3 | markdownify }}
+              <span class="color-txt">{{ .col_txt_dwn }}</span>
+              {{ .txt4 | markdownify }}
+            </p>
           {{ end }}
           <div class="d-flex flex-column flex-xl-row ">
             {{ with .content.buttonplay }}
             <a class="btn btn-outline-primary px-4 my-1 dwn-btns const-btn" href="{{ .url }}">
               <span class="me-3 ">
-                {{ partial "icons/play_store.html" }}
+                {{ partial "icons/download_icons/icon_play_store.html" }}
               </span>
               {{ .label }}
             </a>

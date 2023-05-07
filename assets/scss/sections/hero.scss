@@ -23,11 +23,17 @@
   width: 40% !important;
 }
 .txt-hero{
-  font-size: 1.5rem !important;
+  font-size: 1.6rem !important;
   font-family: 'EuclidCircularA-Regular';
   color: #343434;
  
   margin-bottom: 2rem;
+}
+.btn-dwn-home{
+  font-family: 'EuclidCircularA-Medium';
+}
+.btn-uc-hm-main-div{
+  font-family:'EuclidCircularA-Medium';
 }
 .btns-conatiner-home{
   margin-top: 1rem;
@@ -86,7 +92,9 @@ a.col-navbar {
   position: relative;
   // top: 0;
 }
-
+.color-text{
+  color: #3EBDB6;
+}
 .img-phone {
   position: absolute;
   width: 50% !important;
@@ -96,6 +104,19 @@ a.col-navbar {
   // top: 0;
   // z-index: 1;
 
+}
+.img-aries{
+  position: absolute;
+  bottom: -6rem;
+  width: 40%;
+  left: 4rem;
+  
+}
+.img-logo-didcomm{
+  position: absolute;
+  left: 14rem;
+  bottom: -6rem;
+  width: 40%;
 }
 
 @media screen and (min-width:1170px) {

@@ -15,6 +15,7 @@ footer{
 
 .title-footer{
     color: #FFFFFF !important;
+
 }
 
 .text-footer{
@@ -26,6 +27,7 @@ footer{
 }
 .con-footer{
     color: #FFFFFF !important;
+    font-family: 'EuclidCircularA-Medium';
 }
 
 .geo-color{
@@ -46,6 +48,7 @@ footer{
 .copyright p{
     line-height: 70px;
     margin: 0;
+    font-family: 'EuclidCircularA-Medium';
 }
 .footer-logo :first-child{
     width: 35%;
@@ -64,6 +67,7 @@ footer{
     color: #FFFFFF !important;
     line-height: 35px;
     font-size: .9rem;
+    font-family: 'EuclidCircularA-Medium';
   }
 
 .justify-content-xl-start {
@@ -88,12 +92,16 @@ footer{
     padding-left: 1rem !important;
     color: #FFFFFF !important;
     font-size: .9rem;
+    font-family: 'EuclidCircularA-Medium';
 }
 .footer-content{
     padding-top: 40px;
+    
 }
+
 .footer-content ul li{
     width: 70%;
+    
 }
 
 @media only screen and (max-width:768px){

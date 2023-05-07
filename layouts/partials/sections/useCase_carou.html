@@ -35,8 +35,12 @@
                           {{ with .para }}
                             <p class="para-slide">{{ . }}</p>
                           {{ end }}
-                          <div class="div-btn-scan-me">                       
-                            <button id="button-flip-back">Scan Me <span class="ms-2">{{ partial "icons/arrow-right.html" }} <img src="/images/usecases/carou_img/qr_scan.png" alt=""></span></button>                          
+                          <div class="div-btn-scan-me"> 
+                            <button id="button-flip-back" class="text-decoration-none me-1 scan-link scan-btn-uc" id="btn-scan">Scan me
+                              <i class="fas fa-arrow-right right-arrow"></i>
+                              <span class="qr-scan-uc-btn">{{ partial "icons/usecases_icons/qr_btn.html" }}</span>
+                            </button>                      
+                            <!-- <button >Scan Me <span class="ms-2">{{ partial "icons/arrow-right.html" }} <img src="/images/usecases/carou_img/qr_scan.png" alt=""></span></button>                           -->
                           </div>
                       </div>
                     </div>
@@ -85,7 +89,22 @@
             <div class="swiper-pagination"></div>
         </div>
         
+
 </section>
+
+<style>
+  .scan-link{
+    width: auto;
+    font-family:'EuclidCircularA-Bold' ;
+    font-size: 1rem;
+  }
+  .div-btn-scan-me button{
+    width: auto;
+  }
+  .right-arrow{
+    color: #3EBDB6;
+  }
+</style>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script>
@@ -179,6 +198,7 @@
     
 
 })()
+
 
 
 

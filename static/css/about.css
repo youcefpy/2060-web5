@@ -1,10 +1,13 @@
 .text-abt{
     font-size: 1.6rem;
     color:#073B4C ;
-    width: 100%;  
+    width: 91%;  
     line-height: 2rem;
     margin-bottom: 1.6rem ;  
-    text-align: justify;
+    line-height: 3rem;
+}
+.bold-txt-about{
+    font-family: 'EuclidCircularA-bold';
 }
 
 .title-abt{
@@ -33,8 +36,13 @@
 }
 
 .role-team{
-    font-size: 13px;
+    font-size: 0.9rem;
     color: #3EBDB6;
+    font-family: 'EuclidCircularA-SemiBold';
+    
+}
+.text-center.p-2.txt-desc{
+    font-family: 'EuclidCircularA-LightItalic';
 }
 .git-li{
     color: #3EBDB6;
@@ -42,13 +50,24 @@
 .li-li{
     color: #3EBDB6;
 }
-
+.list-unstyled{
+    gap: 9px ;
+}
+.img-qr-about{
+    width: 200px;
+    height: 200px;
+    margin-top: 2rem;
+}
+.photo-team{
+    padding: 1rem;
+}
 
 
 .img-about-container img{
     height: auto;
     width: 100%;
     margin-top: 1.4rem !important;
+    padding: 2rem;
 
 }
 .title-about-for-mobile h3{

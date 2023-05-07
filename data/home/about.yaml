@@ -2,8 +2,23 @@ enable : true
 id : "2060-about"
 
 title_about_md : "Our Vision"
-para1 : "We aspire to offer open-standards-based tools that will democratise the usage of Verifiable Credentials. We provide the building blocks that enable fully interoperable and decentralised peer-to-peer group communication channels, with no vendor lock-in."
-para2 : "Our goal is to empower end-users with data control and privacy, while advancing trust between entities."
+para1 : "We aspire to offer "
+bold_txt : "open-standards-based tools"
+para2 : "that will democratise the usage of Verifiable Credentials. We provide"
+bold_txt_2 : "the building blocks"
+para3 : "that enable fully "
+bold_txt_3 : "interoperable"
+para4 : "and decentralised "
+bold_txt_4: "peer-to-peer"
+para4 : "group"
+bold_txt_5 : "communication channels"
+para5: ",with no vendor lock-in."
+
+para6 : "Our goal is to empower end-users with "
+bold_txt_6 : "data control and privacy"
+para7 : ", while advancing "
+bold_txt_7 : "trust between entities."
+
 content:
   title: "The team"
   cards:
@@ -16,7 +31,7 @@ content:
       linkedin : "#"
     - image: "/images/about/img3.png"
       title: "Ariel Gentile"
-      text: "Co-Founder and CEO"
+      text: "Co-Founder and CTO"
       description : "Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page,.."
       qrscan: /images/about/scan2.png
       twitter: "#"
