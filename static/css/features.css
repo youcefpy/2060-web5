@@ -67,20 +67,42 @@
 .img-div-feat-container{
   margin-right: 0.5rem;
 }
-
-/* .img-feature2{
-    background: url('/images/features/bg-feature.png') no-repeat center center;
-    width: 122px;
-    height: 104px;
-    overflow:hidden;
-    margin: 1.5rem auto 1.2rem auto;
+.img-feature2{
+  width: 100%;
+  height: 100%;
 }
-.img-feature2 img{
-    width: 122px;
-    height:208px;
-    transition: .5s all;
-} */
+.img-feature2 svg{
+  width: 13%;
+}
+
 .card-title{
     color: #7678ED; 
 }
 
+@media screen and (max-width:768px){
+  .text-feat{
+    width: 100%;
+  }
+  .bar-separation{
+    display: none;
+  }
+  .ul-container-tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+   
+  }
+  .ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active {
+    width: 100%;
+  }
+  .ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab{
+    width: 100%;
+  }
+  .cards-div-conatiner{
+    display: flex;
+    flex-direction: column ;
+    gap: 18px;
+  }
+}

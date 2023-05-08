@@ -60,7 +60,9 @@
     margin: 0 auto;
     justify-content: space-between;
 }
-
+.img-for-mobile{
+    display: none !important;
+}
 
 //   .dwn-btns:hover{
 //     background-color: #0893FF !important;
@@ -70,6 +72,20 @@
 @media only screen and (max-width:768px) {
     .dwn-desc-content .title-dwn{
         display: none;
+    }
+    .img-for-mobile{
+        width: 100%;
+        display: block !important;
+    }
+    .img-for-mobile img{
+        width: 100%;
+    }
+
+    .img-dwn-container{
+        display: none;
+    }
+    .container-dwn-home{
+        flex-direction: column;
     }
     .dowmload-mobile-container h3{
         display: block;

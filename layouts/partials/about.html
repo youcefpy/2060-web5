@@ -4,10 +4,24 @@
         <div class=" contaiter title-about-for-mobile">
             <h3 class="title-abt">{{ .title_about_md }}</h3>
         </div>
+        <div class="col-md-6 img-for-mobile" >
+            <img src="/images/download_images/2060-download.png">
 
-      <div class="row flex-column flex-xl-row-reverse">
-          <div class="col-6 d-flex justify-content-center img-about-container">
-                <img src="/images/download_images/2060-download.png" />
+        </div>
+
+      <div class=" ower-vision-container d-flex">
+            <div class="cube-wrap-dwn col-md-6 img-dwn-container">
+                <div class="cube-dwn">
+                    <img src="/images/download_images/phone.png" class="img-dwn-home"/>
+                    <img src="/images/download_images/user-1.png" class="img-dwn-user1"/>
+                    <img src="/images/download_images/user-2.png" class="img-dwn-user2"/>
+                    <img src="/images/download_images/add-service.png" class="img-dwn-service"/>
+                    <img src="/images/download_images/bloc-chat-user-2.png" class="img-dwn-chat1"/>
+                    <img src="/images/download_images/bulle-chat-user-1.png" class="img-dwn-chat2"/>
+                    <img src="/images/download_images/fieand-chat.png" class="img-dwn-fienad"/>
+                    <img src="/images/download_images/id-card.png" class="img-dwn-card"/>
+                    <img src="/images/download_images/scan-service.png" class="img-dwn-scan"/>            
+                </div>
             </div>
             <div class="col-md-6 col-sm-12 d-flex flex-column container-content-about ">             
                 <h3 class="title-abt">{{ .title_about_md }}</h3>
@@ -90,4 +104,58 @@
     
   </section>
   
+
+
+<script>
+    (function(){
+      var element = document.querySelector(".cube-wrap-dwn")
   
+      var position = (element.offsetWidth)/2
+      var cube = element.getBoundingClientRect().left
+  
+      element.addEventListener('mousemove', function(e){
+        var mousePosition = e.pageX;
+        if(mousePosition > (cube+position)){
+          var transform = "scale3d(1,1,1) rotateX(0deg) rotateY(2deg) rotateZ(0deg)"
+          element.children[0].style.transform = transform
+  
+        }
+        else{
+          var transform = "scale3d(1,1,1) rotateX(0deg) rotateY(-2deg) rotateZ(0deg)"
+          element.children[0].style.transform = transform
+        }
+      })
+    element.addEventListener('mouseenter', function(){
+         var transform = "scale3d(1.1,1.1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg)"
+         var transform2 = "scale3d(1.15,1.15,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg)"
+          element.children[0].children[0].style.transform = transform
+          element.children[0].children[1].style.transform = transform2
+          element.children[0].children[2].style.transform = transform2
+          element.children[0].children[3].style.transform = transform2
+          element.children[0].children[4].style.transform = transform2
+          element.children[0].children[5].style.transform = transform2
+          element.children[0].children[6].style.transform = transform2
+          element.children[0].children[7].style.transform = transform2
+          element.children[0].children[8].style.transform = transform2
+        
+  
+      })
+    element.addEventListener('mouseleave', function(){
+        
+      var transform = "scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg)"
+         var transform2 = "scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg)"
+          element.children[0].children[0].style.transform = transform
+          element.children[0].children[1].style.transform = transform2
+          element.children[0].children[2].style.transform = transform2
+          element.children[0].children[3].style.transform = transform2
+          element.children[0].children[4].style.transform = transform2
+          element.children[0].children[5].style.transform = transform2
+          element.children[0].children[6].style.transform = transform2
+          element.children[0].children[7].style.transform = transform2
+          element.children[0].children[8].style.transform = transform2
+    })
+  
+  
+  
+  })()
+</script>

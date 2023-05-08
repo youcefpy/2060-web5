@@ -138,10 +138,34 @@ a.col-navbar {
   
 }
 
-
+.img-hero-for-mobile{
+  display: none;
+}
 
 
 @media screen and (max-width : 768px) {
+  
+    .home-top-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .home-head-content{
+      width: 100%;
+
+    }
+    .h3-title-home-mobile{
+      line-height: 65px !important;
+    }
+    .hero-image{
+      display: none;
+      width: 100%;
+    }
+    .img-hero-for-mobile img{
+      width: 100%;
+    }
+    .img-hero-for-mobile{
+      display: block;
+    }
     .txt-hero-for-mobile{
       display: block;
     }
