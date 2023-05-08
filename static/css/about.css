@@ -50,8 +50,9 @@
 .li-li{
     color: #3EBDB6;
 }
-.list-unstyled{
-    gap: 9px ;
+
+.list-unstyled a svg {
+    width: 80%;
 }
 .img-qr-about{
     width: 200px;
