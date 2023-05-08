@@ -55,16 +55,37 @@
 
 }
 
-
+.Github-text-for-mobile{
+  display: none;
+}
 
 /* Mobile Version ...  */
 
 
 @media screen and (max-width : 768px) {
-  .github-header{
-     width: 50px;
-     height: 40px;
-    //  margin: 0 auto 0 8.3rem ;
+  .navbar-nav.mb-2.mb-xl-0.ul-for-github {
+    background-color: #073B4C;
+    border-radius: 3px;
+  }
+  .Github-text-for-mobile{
+    display: inline;
+    vertical-align: middle;
+  }
+  .github-header {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'EuclidCircularA-Medium';
+    color: #fff;
+  }
+  .github-header:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+  .github-header .img-fluid {
+    width: 10%;
+    height: 100%;
   }
 }
 

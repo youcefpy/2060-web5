@@ -16,8 +16,8 @@
           </li>
         {{ end }}
       </ul>
-      <ul class="navbar-nav  mb-2 mb-xl-0">
-        <a href="https://github.com/2060-io" target="_blank" class="github-header">{{ partial "utilities/image-fluid" "images/github_icon.png" }}</a>
+      <ul class="navbar-nav  mb-2 mb-xl-0 ul-for-github">
+        <a href="https://github.com/2060-io" target="_blank" class="github-header">{{ partial "utilities/image-fluid" "images/github_icon.png" }} <span class="Github-text-for-mobile">GitHub</span> </a>
       </ul>
       <ul class="navbar-nav ms-xl-3 mb-2 mb-xl-0">
         {{ range .Site.Menus.buttons }}
