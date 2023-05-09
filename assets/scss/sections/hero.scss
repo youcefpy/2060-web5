@@ -237,7 +237,21 @@ a.col-navbar {
 
 /* for tablet  (min-with : 768px ) and (max-with: 1370px )*/
 
-@media screen and (min-width:768px) and (max-width:1370px){
+@media screen and(min-width:1200px) and (max-width:1287px) {
+  .cube {
+    width: 87%;
+  }
+  .img-logo-didcomm{
+    bottom: -5.5rem;
+    left: 12rem;
+  }
+  .img-aries{
+    bottom: -5rem;
+  }
+  
+}
+
+@media screen and (min-width:768px) and (max-width:1200px){
   .home-top-container{
     display: flex;
     flex-direction: column;
@@ -249,6 +263,11 @@ a.col-navbar {
   .h3-title-home{
     display: none;
   }
+
+  .container .img-hero-for-mobile{
+    width: 80%;
+  }
+
   .txt-hero-for-mobile{
     display: flex;
     justify-content: center;

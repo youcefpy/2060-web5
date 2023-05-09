@@ -276,3 +276,15 @@ border-radius: 51px;
     top: 40%;
     width: 100%;
   }
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+  .para-slide{
+    font-size: 0.8rem ;
+  }
+}

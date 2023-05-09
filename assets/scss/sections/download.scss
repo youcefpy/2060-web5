@@ -172,3 +172,47 @@
     transform: scale3d(1,1,1) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     transition: .8s all;
 }
+
+
+
+
+
+
+
+@media  screen and (min-width:768px) and (max-width:1200px) {
+    .container-dwn-home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img-dwn-container{
+        display: none;
+    }
+    .title-dwn{
+        display: none;
+    }
+    .dwn-desc-content{
+        width: 100%;
+        text-align: center;
+    }
+    .dowmload-mobile-container{
+        display: block !important;
+    }
+    
+    .img-for-mobile {
+        display: block !important;
+        width: 100%;
+        text-align: center;
+    }
+    .img-for-mobile img{
+        width: 50%;
+    }
+    .dowmload-mobile-container h3{
+        display: block !important;
+    }
+    .download .txt-dwn{
+        width: 100%;
+        text-align: center;
+    }
+   
+}

@@ -9,21 +9,21 @@
 
         </div>
 
-      <div class=" ower-vision-container d-flex">
-            <div class="cube-wrap-dwn col-md-6 img-dwn-container">
-                <div class="cube-dwn">
-                    <img src="/images/download_images/phone.png" class="img-dwn-home"/>
-                    <img src="/images/download_images/user-1.png" class="img-dwn-user1"/>
-                    <img src="/images/download_images/user-2.png" class="img-dwn-user2"/>
-                    <img src="/images/download_images/add-service.png" class="img-dwn-service"/>
-                    <img src="/images/download_images/bloc-chat-user-2.png" class="img-dwn-chat1"/>
-                    <img src="/images/download_images/bulle-chat-user-1.png" class="img-dwn-chat2"/>
-                    <img src="/images/download_images/fieand-chat.png" class="img-dwn-fienad"/>
-                    <img src="/images/download_images/id-card.png" class="img-dwn-card"/>
-                    <img src="/images/download_images/scan-service.png" class="img-dwn-scan"/>            
+      <div class="container ower-vision-container d-flex">
+            <div class="cube-wrap-dwn col-md-6 img-dwn-container img-abt-container">
+                <div class="cube-dwn cube-abt">
+                    <img src="/images/download_images/phone.png" class="img-dwn-home img-abt-phone"/>
+                    <img src="/images/download_images/user-1.png" class="img-dwn-user1 img-abt-urs1"/>
+                    <img src="/images/download_images/user-2.png" class="img-dwn-user2 img-abt-urs2"/>
+                    <img src="/images/download_images/add-service.png" class="img-dwn-service img-abt-service"/>
+                    <img src="/images/download_images/bloc-chat-user-2.png" class="img-dwn-chat1 img-abt-chat1"/>
+                    <img src="/images/download_images/bulle-chat-user-1.png" class="img-dwn-chat2 img-abt-chat2"/>
+                    <img src="/images/download_images/fieand-chat.png" class="img-dwn-fienad img-abt-fienad"/>
+                    <img src="/images/download_images/id-card.png" class="img-dwn-card img-abt-card"/>
+                    <img src="/images/download_images/scan-service.png" class="img-dwn-scan img-abt-scan"/>            
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 d-flex flex-column container-content-about ">             
+            <div class="col-md-6 container-content-about ">             
                 <h3 class="title-abt">{{ .title_about_md }}</h3>
 
                     <p class="text-abt">
@@ -59,13 +59,13 @@
   <section class="section features py-5">
     <div class="container">
       
-        <div class="col-12 col-xl-6">
+        <div class="col-12 col-xl-6 title-team-container">
             {{ with .content.title }}
-            <h3 class="fs-1 fw-bold  text-primary pb-3 title-team" style="font-weight: normal !important;">{{ . }}</h3>
+            <h3 class="fs-1 fw-bold  text-primary pb-3 title-team">{{ . }}</h3>
             {{ end }}
         </div>
 
-        <div class="row justify-content-center d-flex">
+        <div class="d-flex cards-team-containe">
             {{ range .content.cards }}
             <div class="col-12 col-xl-6 mb-3">          
                 <div class="d-flex card-about-team"> 
@@ -104,6 +104,55 @@
     
   </section>
   
+  <style>
+    .img-abt-container{
+        width: 50%;
+        position: relative;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .img-abt-urs1{
+        top: 67px;
+        left: -46px;    
+    }
+    .img-abt-urs2{
+        top: 245px;
+        left: 78px;
+    }
+
+    .img-abt-service{
+        top: 361px;
+        left: -1px;
+    }
+
+    .img-abt-chat1{
+        top: 305px;
+        left: -29px;    
+    }
+
+    .img-abt-chat2{
+        top: 154px;
+        left: -31px;
+    }
+
+    .img-abt-fienad{
+        top: 80px;
+        left: 149px;
+    }
+
+    .img-abt-card{
+        top: 136px;
+        left: 156px;
+    }
+
+    .img-abt-scan{
+        top: 29px;
+        left: -36px;
+    }
+
+  </style>
 
 
 <script>

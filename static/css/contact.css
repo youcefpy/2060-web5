@@ -109,7 +109,13 @@ border-left-color: rgba(52, 52, 52, 0.18);
         padding: 1rem;
         
     }
-
+    .conatct-form-container{
+        width: 100%;
+    }
+    .col-6.d-flex.flex-column.contact-text{
+        width: 100%;
+    }
+    
     .title-contact-rt{
         padding-left: 0 !important ;
     }
@@ -134,7 +140,15 @@ border-left-color: rgba(52, 52, 52, 0.18);
     }
     
 }
-
+.contact-conatiner-form-and-desc{
+    display: flex;
+    
+    gap: 18px;
+}
 
 
 /************************************************/
+
+/* @media screen and(min-width:768px) and (max-width:1200px) {
+    
+} */

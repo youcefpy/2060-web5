@@ -5,9 +5,9 @@
 }
 
 .text-abt{
-    font-size: 1.6rem;
+    font-size: 1.44rem;
     color:#073B4C ;
-    width: 91%;  
+    width: 100%;  
     line-height: 2rem;
     margin-bottom: 1.6rem ;  
     line-height: 3rem;
@@ -25,6 +25,9 @@
 }
 .txt-team{
     font-size: 25px;
+}
+.title-team-container{
+    font-family: 'EuclidCircularA-SemiBold';
 }
 
 .dsc-team{
@@ -81,22 +84,31 @@
     
 
 }
-.title-about-for-mobile h3{
-    display: none !important;
+.title-about-for-mobile{
+    display: none;
+}
+.cards-team-containe{
+    gap: 18px;
 }
 
 
 @media only screen and (max-width :768px)  {
+    .img-abt-container{
 
-    .img-about-container {
-       
-       display: none;
+        display: none;
     }
-    .title-about-for-mobile h3{
-        display: block !important;
+    
+    .title-about-for-mobile{
+        display: block ;
         text-align: center;
         padding-bottom: 0 !important;
 
+    }
+    .cube-abt{
+        display: none;
+    }
+    .cards-team-containe{
+        flex-direction: column;
     }
     .card-about-team{
         flex-direction: column;
@@ -145,16 +157,55 @@
  
     
 }
-@media only screen and (min-width : 768px) and (max-width:1300px) {
+@media only screen and (min-width : 768px) and (max-width:1200px) {
   
-    .img-about-container {
-       
+    .cards-team-containe{
+        flex-direction: column;
+    }
+    .cube-abt{
         display: none;
+    }
+    .img-abt-container{
+        display: none !important;
+    }
+    .container-content-about{
+        width: 100%;
+    }
+    .title-team-container{
+        text-align: center ;
+    }
+    .d-flex.justify-content-center.justify-content-xl-start.list-unstyled{
+        margin-left: 0 ;
+    }
+  
+    .title-about-for-mobile {
+        display: block;
+    }
+    .container-content-about {
+        width: 100% !important;
+        font-size: 1.2rem !important;
+    }
+    .title-about-for-mobile h3{
+        text-align: center ;
+    }
+
+    .list-unstyled{
+        margin-left: 0;
     }
 
     .row.flex-column.flex-xl-row-reverse{
         justify-content: center;
         align-content: center;
+    }
+    .img-for-mobile{
+        display: flex;
+        width: 100%;
+    }
+    .img-for-mobile img{
+        width: 50%;
+    }
+    .container-content-about h3 {
+        display: none;
     }
 }
 
