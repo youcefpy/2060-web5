@@ -109,12 +109,13 @@ border-left-color: rgba(52, 52, 52, 0.18);
         padding: 1rem;
         
     }
-    .conatct-form-container{
+    .col-6.d-flex.flex-column.conatct-form-container{
         width: 100%;
     }
     .col-6.d-flex.flex-column.contact-text{
         width: 100%;
     }
+    
     
     .title-contact-rt{
         padding-left: 0 !important ;
