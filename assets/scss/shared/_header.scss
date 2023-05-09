@@ -78,14 +78,22 @@
     text-decoration: none;
     font-family: 'EuclidCircularA-Medium';
     color: #fff;
+    padding-top: 3px;
   }
   .github-header:hover{
     text-decoration: none;
     color: #fff;
   }
   .github-header .img-fluid {
-    width: 10%;
-    height: 100%;
+    width: 8%;
+    // height: 100%;
   }
 }
+
+/* media for tablet mode */
+
+@media screen and (min-width:768px) and (max-width:1370px){
+  
+}
+
 
