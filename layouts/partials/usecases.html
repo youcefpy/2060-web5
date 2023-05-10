@@ -37,9 +37,13 @@
               {{ with .title }}
                 <h3 class="fs-1 fw-bold text-primary pb-3 h3-uc-title" style="color: #3EBDB6 !important;">{{ . }}</h3>
               {{ end }}
-              {{ with .text }}
-                <p class="text-black-61 pb-3 para-uc-container">{{ . }}</p>
-              {{ end }}
+              <p class="text-black-61 pb-3 para-uc-container">
+                {{ .text }}
+                <span class="bold-carou-txt">{{ .text_bold }} </span>
+                {{ .text_2 }}
+
+              </p>
+              
 
             </div>
             {{ range .buttons }}
