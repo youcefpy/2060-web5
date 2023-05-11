@@ -16,10 +16,12 @@
                 <h3 class="fs-1 fw-bold text-primary pb-3" style="color: #3EBDB6 !important;">{{ . }}</h3>
             {{ end }}
           </div>
-          <div class="col-6 col-xl-6 d-flex img-container-uc">
+          <div class="cupe-wrap-uc col-6 d-flex img-container-uc">
+            <div class="cube-uc">
               {{ with .image }}
                 <img src="{{ . }}" alt="img-sign" class="img-fuild mb-5" id="image">
               {{ end }}
+            </div>
 
             <div class="qr-code-scan-replace-img" id="qr-code-scan-replace-img">
               {{ with .qr_scan_uc_img }}
@@ -28,7 +30,7 @@
             </div>
 
           </div>
-          <div class="col-6 col-xl-6 d-flex flex-column desc-usecase">
+          <div class="col-6 d-flex flex-column desc-usecase">
 
             {{ with .img }}
               <img src="{{ . }}" alt="img-sign" class="img-fuild-left">
@@ -148,5 +150,6 @@
      }
   });
   </script>  
+
 
   

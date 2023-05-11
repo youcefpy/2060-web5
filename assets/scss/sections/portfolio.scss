@@ -2,6 +2,7 @@
   .portfolio-feature:nth-child(odd) .portfolio-feature-container {
     @media (min-width: 1200px) {
       flex-direction: row-reverse;
+     
     }
     // @media(max-width:768px){
     //   flex-direction: column;
@@ -12,6 +13,7 @@
     max-width: none;
     // padding: 40px;
 
+  }
 
 /*********************************************************** Media Min width 1440px ***************/
 @media (min-width: 1440px) {
@@ -71,7 +73,7 @@
   }
 
 
-}
+
 
 .qr-scan-uc-btn svg{
   vertical-align: text-bottom ;
