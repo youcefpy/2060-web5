@@ -158,7 +158,38 @@ footer{
     
 }
 
-@media only screen and (min-width : 768px) and (max-width:1300px) {
-  
-    
+@media only screen and (min-width : 768px) and (max-width:1000px) {
+  .container-footer-div{
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  .footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+  .con-footer {
+    line-height: 30px;
+  }
+  .text-loc{
+    text-align: left;
+  }
+  .list-unstyled{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }
