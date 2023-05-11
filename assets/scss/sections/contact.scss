@@ -47,11 +47,11 @@
     width: 378px;
     height: 50px;
 }
-.para-policy{
-    margin-top:45px ;
+.para-policy{ 
+    margin-top: 2rem;
     margin-bottom: 5rem;
 }
-.shred-nl-cnt{
+.shared-nl-cnt{
     margin-top: 4rem;
     
 }
@@ -60,7 +60,7 @@
 }
 
 @media only screen and (max-width : 768px){
-    .shred-nl-cnt {
+    .shared-nl-cnt {
         flex-direction: column;
       }
       .div1-contact, .div2-newslettre {
@@ -85,11 +85,12 @@
       }
 } 
 
-@media only screen and (min-width : 768px) and (max-width:1300px){
+@media only screen and (min-width : 768px) and (max-width:1200px){
    
-    .shred-nl-cnt{
+    .shared-nl-cnt{
         flex-direction: column;
-        margin-left: 210px;
+        // margin-left: 210px;
+       align-items: center;
     }
     .div1-contact, .div2-newslettre {
         width: 100%;
