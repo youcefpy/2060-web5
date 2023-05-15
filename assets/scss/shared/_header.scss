@@ -90,6 +90,37 @@
   }
 }
 
+@media screen and (min-width:768px) and (max-width : 1200px){
+  .ul-for-github{
+    width: 100%;
+    background-color: #073B4C;
+    border-radius: 3px;
+
+  }
+  .Github-text-for-mobile {
+    display: block;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'EuclidCircularA-Medium';
+  }
+
+  .github-header{
+    width: 94%;
+    text-align: center;
+    gap: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    text-decoration: none;
+  }
+  .github-header img{
+   
+    width: 6%;
+  }
+
+}
+
 /* media for tablet mode */
 
 
